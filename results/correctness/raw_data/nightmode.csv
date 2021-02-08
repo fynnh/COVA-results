@@ -1,0 +1,21 @@
+Target; Path; Correct; Reason
+<b.a.a.a.a: java.lang.String a(java.lang.String,java.lang.Object,java.lang.String)>:0;No Constraint; ;
+<b.a.a.a.a: java.lang.String a(org.xmlpull.v1.XmlPullParser,java.lang.StringBuilder,java.lang.String)>:0;No Constraint; ;
+<b.a.a.a.a: void b(java.lang.String,java.lang.Object,java.lang.String)>:4;No Constraint; ;
+<c.a.a.a.a: void onCheckedChanged(android.widget.RadioGroup,int)>:0;c.a.a.a.a{'menu:radioGroup': 2131165353}; ;
+<c.a.a.a.a: void onCheckedChanged(android.widget.RadioGroup,int)>:2;c.a.a.a.a{'menu:radioGroup': 2131165353}; ;
+<c.a.a.a.a: void onCheckedChanged(android.widget.RadioGroup,int)>:3;c.a.a.a.a{'menu:radioGroup': 2131165351}; ;
+<c.a.a.a.a: void onCheckedChanged(android.widget.RadioGroup,int)>:7;c.a.a.a.a{'menu:radioGroup': 2131165350}; ;
+<io.github.subhamtyagi.nightmode.LandingPage: boolean onCreateOptionsMenu(android.view.Menu)>:0;io.github.subhamtyagi.nightmode.LandingPage{}; ;
+<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:0;io.github.subhamtyagi.nightmode.LandingPage{}; ;
+<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:1;io.github.subhamtyagi.nightmode.LandingPage{}; ;
+<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:7;io.github.subhamtyagi.nightmode.LandingPage{}; ;
+<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:8;io.github.subhamtyagi.nightmode.LandingPage{}; ;
+<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:19;io.github.subhamtyagi.nightmode.LandingPage{'C157': True}; ;
+<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:20;io.github.subhamtyagi.nightmode.LandingPage{}; ;
+<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:22;io.github.subhamtyagi.nightmode.LandingPage{}; ;
+<io.github.subhamtyagi.nightmode.QuickTileServices: void <init>()>:0;No path to target activity; ;
+<io.github.subhamtyagi.nightmode.QuickTileServices: void onClick()>:8;No path to target activity; ;
+<io.github.subhamtyagi.nightmode.QuickTileServices: void onClick()>:9;No path to target activity; ;
+<io.github.subhamtyagi.nightmode.QuickTileServices: void onTileAdded()>:4;No path to target activity; ;
+<io.github.subhamtyagi.nightmode.QuickTileServices: void onTileAdded()>:6;No path to target activity; ;

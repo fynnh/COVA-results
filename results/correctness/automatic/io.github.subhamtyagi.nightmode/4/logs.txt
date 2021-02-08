@@ -1,0 +1,156 @@
+COVA_CALL_INFORMATION:specialinvoke $r0.<a.b.a.m: void <init>()>()
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void <init>()>:0
+COVA_CALL_INFORMATION:specialinvoke $r0.<a.b.a.m: void onCreate(android.os.Bundle)>($r1)
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:0
+COVA_CALL_INFORMATION:virtualinvoke $r0.<a.b.a.m: void setContentView(int)>(2131361820)
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:1
+COVA_CALL_INFORMATION:$r2 = virtualinvoke $r0.<a.b.a.m: android.view.View findViewById(int)>(2131165352)
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:2
+COVA_CALL_INFORMATION:$r3 = (android.widget.RadioGroup) $r2
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:3
+COVA_CALL_INFORMATION:$r0.<io.github.subhamtyagi.nightmode.LandingPage: android.widget.RadioGroup q> = $r3
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:4
+COVA_CALL_INFORMATION:$r4 = virtualinvoke $r0.<android.app.Activity: java.lang.Object getSystemService(java.lang.String)>("uimode")
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:5
+COVA_CALL_INFORMATION:$r5 = (android.app.UiModeManager) $r4
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:6
+COVA_CALL_INFORMATION:$r0.<io.github.subhamtyagi.nightmode.LandingPage: android.app.UiModeManager r> = $r5
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:7
+COVA_CALL_INFORMATION:$r5 = $r0.<io.github.subhamtyagi.nightmode.LandingPage: android.app.UiModeManager r>
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:8
+COVA_CALL_INFORMATION:$i0 = virtualinvoke $r5.<android.app.UiModeManager: int getNightMode()>()
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:9
+COVA_CALL_INFORMATION:if $i0 == 0 goto $r3 = $r0.<io.github.subhamtyagi.nightmode.LandingPage: android.widget.RadioGroup q>
+COVA_CALL_INFORMATION:if $i0 == 1 goto $r3 = $r0.<io.github.subhamtyagi.nightmode.LandingPage: android.widget.RadioGroup q>
+COVA_CALL_INFORMATION:if $i0 == 2 goto $r3 = $r0.<io.github.subhamtyagi.nightmode.LandingPage: android.widget.RadioGroup q>
+COVA_CALL_INFORMATION:$r3 = $r0.<io.github.subhamtyagi.nightmode.LandingPage: android.widget.RadioGroup q>
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:13
+COVA_CALL_INFORMATION:$i0 = 2131165353
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:14
+COVA_CALL_INFORMATION:virtualinvoke $r3.<android.widget.RadioGroup: void check(int)>($i0)
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:19
+COVA_CALL_INFORMATION:$r3 = $r0.<io.github.subhamtyagi.nightmode.LandingPage: android.widget.RadioGroup q>
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:20
+COVA_CALL_INFORMATION:$r6 = new c.a.a.a.a
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:21
+COVA_CALL_INFORMATION:specialinvoke $r6.<c.a.a.a.a: void <init>(io.github.subhamtyagi.nightmode.LandingPage)>($r0)
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:22
+COVA_CALL_INFORMATION:$r0.<c.a.a.a.a: io.github.subhamtyagi.nightmode.LandingPage a> = $r1
+COVA_CONSTRAINT_INFORMATION:<c.a.a.a.a: void <init>(io.github.subhamtyagi.nightmode.LandingPage)>:0
+COVA_CALL_INFORMATION:specialinvoke $r0.<java.lang.Object: void <init>()>()
+COVA_CONSTRAINT_INFORMATION:<c.a.a.a.a: void <init>(io.github.subhamtyagi.nightmode.LandingPage)>:1
+COVA_CALL_INFORMATION:virtualinvoke $r3.<android.widget.RadioGroup: void setOnCheckedChangeListener(android.widget.RadioGroup$OnCheckedChangeListener)>($r6)
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:23
+COVA_CALL_INFORMATION:$r1 = virtualinvoke $r0.<a.b.a.m: android.view.MenuInflater getMenuInflater()>()
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: boolean onCreateOptionsMenu(android.view.Menu)>:0
+COVA_CALL_INFORMATION:virtualinvoke $r1.<android.view.MenuInflater: void inflate(int,android.view.Menu)>(2131427328, $r2)
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: boolean onCreateOptionsMenu(android.view.Menu)>:1
+COVA_CALL_INFORMATION:$r2 = $r0.<c.a.a.a.a: io.github.subhamtyagi.nightmode.LandingPage a>
+COVA_CONSTRAINT_INFORMATION:<c.a.a.a.a: void onCheckedChanged(android.widget.RadioGroup,int)>:3
+COVA_CALL_INFORMATION:$r3 = $r2.<io.github.subhamtyagi.nightmode.LandingPage: android.app.UiModeManager r>
+COVA_CONSTRAINT_INFORMATION:<c.a.a.a.a: void onCheckedChanged(android.widget.RadioGroup,int)>:4
+COVA_CALL_INFORMATION:$b1 = 1
+COVA_CONSTRAINT_INFORMATION:<c.a.a.a.a: void onCheckedChanged(android.widget.RadioGroup,int)>:5
+COVA_CALL_INFORMATION:virtualinvoke $r3.<android.app.UiModeManager: void setNightMode(int)>($b1)
+COVA_CONSTRAINT_INFORMATION:<c.a.a.a.a: void onCheckedChanged(android.widget.RadioGroup,int)>:9
+COVA_CALL_INFORMATION:specialinvoke $r0.<a.b.a.m: void <init>()>()
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void <init>()>:0
+COVA_CALL_INFORMATION:specialinvoke $r0.<a.b.a.m: void onCreate(android.os.Bundle)>($r1)
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:0
+COVA_CALL_INFORMATION:virtualinvoke $r0.<a.b.a.m: void setContentView(int)>(2131361820)
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:1
+COVA_CALL_INFORMATION:$r2 = virtualinvoke $r0.<a.b.a.m: android.view.View findViewById(int)>(2131165352)
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:2
+COVA_CALL_INFORMATION:$r3 = (android.widget.RadioGroup) $r2
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:3
+COVA_CALL_INFORMATION:$r0.<io.github.subhamtyagi.nightmode.LandingPage: android.widget.RadioGroup q> = $r3
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:4
+COVA_CALL_INFORMATION:$r4 = virtualinvoke $r0.<android.app.Activity: java.lang.Object getSystemService(java.lang.String)>("uimode")
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:5
+COVA_CALL_INFORMATION:$r5 = (android.app.UiModeManager) $r4
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:6
+COVA_CALL_INFORMATION:$r0.<io.github.subhamtyagi.nightmode.LandingPage: android.app.UiModeManager r> = $r5
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:7
+COVA_CALL_INFORMATION:$r5 = $r0.<io.github.subhamtyagi.nightmode.LandingPage: android.app.UiModeManager r>
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:8
+COVA_CALL_INFORMATION:$i0 = virtualinvoke $r5.<android.app.UiModeManager: int getNightMode()>()
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:9
+COVA_CALL_INFORMATION:if $i0 == 0 goto $r3 = $r0.<io.github.subhamtyagi.nightmode.LandingPage: android.widget.RadioGroup q>
+COVA_CALL_INFORMATION:if $i0 == 1 goto $r3 = $r0.<io.github.subhamtyagi.nightmode.LandingPage: android.widget.RadioGroup q>
+COVA_CALL_INFORMATION:$r3 = $r0.<io.github.subhamtyagi.nightmode.LandingPage: android.widget.RadioGroup q>
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:15
+COVA_CALL_INFORMATION:$i0 = 2131165351
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:16
+COVA_CALL_INFORMATION:virtualinvoke $r3.<android.widget.RadioGroup: void check(int)>($i0)
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:19
+COVA_CALL_INFORMATION:$r3 = $r0.<io.github.subhamtyagi.nightmode.LandingPage: android.widget.RadioGroup q>
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:20
+COVA_CALL_INFORMATION:$r6 = new c.a.a.a.a
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:21
+COVA_CALL_INFORMATION:specialinvoke $r6.<c.a.a.a.a: void <init>(io.github.subhamtyagi.nightmode.LandingPage)>($r0)
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:22
+COVA_CALL_INFORMATION:$r0.<c.a.a.a.a: io.github.subhamtyagi.nightmode.LandingPage a> = $r1
+COVA_CONSTRAINT_INFORMATION:<c.a.a.a.a: void <init>(io.github.subhamtyagi.nightmode.LandingPage)>:0
+COVA_CALL_INFORMATION:specialinvoke $r0.<java.lang.Object: void <init>()>()
+COVA_CONSTRAINT_INFORMATION:<c.a.a.a.a: void <init>(io.github.subhamtyagi.nightmode.LandingPage)>:1
+COVA_CALL_INFORMATION:virtualinvoke $r3.<android.widget.RadioGroup: void setOnCheckedChangeListener(android.widget.RadioGroup$OnCheckedChangeListener)>($r6)
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:23
+COVA_CALL_INFORMATION:$r1 = virtualinvoke $r0.<a.b.a.m: android.view.MenuInflater getMenuInflater()>()
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: boolean onCreateOptionsMenu(android.view.Menu)>:0
+COVA_CALL_INFORMATION:virtualinvoke $r1.<android.view.MenuInflater: void inflate(int,android.view.Menu)>(2131427328, $r2)
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: boolean onCreateOptionsMenu(android.view.Menu)>:1
+COVA_CALL_INFORMATION:$r2 = $r0.<c.a.a.a.a: io.github.subhamtyagi.nightmode.LandingPage a>
+COVA_CONSTRAINT_INFORMATION:<c.a.a.a.a: void onCheckedChanged(android.widget.RadioGroup,int)>:0
+COVA_CALL_INFORMATION:$r3 = $r2.<io.github.subhamtyagi.nightmode.LandingPage: android.app.UiModeManager r>
+COVA_CONSTRAINT_INFORMATION:<c.a.a.a.a: void onCheckedChanged(android.widget.RadioGroup,int)>:1
+COVA_CALL_INFORMATION:$b1 = 2
+COVA_CONSTRAINT_INFORMATION:<c.a.a.a.a: void onCheckedChanged(android.widget.RadioGroup,int)>:2
+COVA_CALL_INFORMATION:virtualinvoke $r3.<android.app.UiModeManager: void setNightMode(int)>($b1)
+COVA_CONSTRAINT_INFORMATION:<c.a.a.a.a: void onCheckedChanged(android.widget.RadioGroup,int)>:9
+COVA_CALL_INFORMATION:specialinvoke $r0.<a.b.a.m: void <init>()>()
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void <init>()>:0
+COVA_CALL_INFORMATION:specialinvoke $r0.<a.b.a.m: void onCreate(android.os.Bundle)>($r1)
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:0
+COVA_CALL_INFORMATION:virtualinvoke $r0.<a.b.a.m: void setContentView(int)>(2131361820)
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:1
+COVA_CALL_INFORMATION:$r2 = virtualinvoke $r0.<a.b.a.m: android.view.View findViewById(int)>(2131165352)
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:2
+COVA_CALL_INFORMATION:$r3 = (android.widget.RadioGroup) $r2
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:3
+COVA_CALL_INFORMATION:$r0.<io.github.subhamtyagi.nightmode.LandingPage: android.widget.RadioGroup q> = $r3
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:4
+COVA_CALL_INFORMATION:$r4 = virtualinvoke $r0.<android.app.Activity: java.lang.Object getSystemService(java.lang.String)>("uimode")
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:5
+COVA_CALL_INFORMATION:$r5 = (android.app.UiModeManager) $r4
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:6
+COVA_CALL_INFORMATION:$r0.<io.github.subhamtyagi.nightmode.LandingPage: android.app.UiModeManager r> = $r5
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:7
+COVA_CALL_INFORMATION:$r5 = $r0.<io.github.subhamtyagi.nightmode.LandingPage: android.app.UiModeManager r>
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:8
+COVA_CALL_INFORMATION:$i0 = virtualinvoke $r5.<android.app.UiModeManager: int getNightMode()>()
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:9
+COVA_CALL_INFORMATION:if $i0 == 0 goto $r3 = $r0.<io.github.subhamtyagi.nightmode.LandingPage: android.widget.RadioGroup q>
+COVA_CALL_INFORMATION:if $i0 == 1 goto $r3 = $r0.<io.github.subhamtyagi.nightmode.LandingPage: android.widget.RadioGroup q>
+COVA_CALL_INFORMATION:if $i0 == 2 goto $r3 = $r0.<io.github.subhamtyagi.nightmode.LandingPage: android.widget.RadioGroup q>
+COVA_CALL_INFORMATION:$r3 = $r0.<io.github.subhamtyagi.nightmode.LandingPage: android.widget.RadioGroup q>
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:13
+COVA_CALL_INFORMATION:$i0 = 2131165353
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:14
+COVA_CALL_INFORMATION:virtualinvoke $r3.<android.widget.RadioGroup: void check(int)>($i0)
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:19
+COVA_CALL_INFORMATION:$r3 = $r0.<io.github.subhamtyagi.nightmode.LandingPage: android.widget.RadioGroup q>
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:20
+COVA_CALL_INFORMATION:$r6 = new c.a.a.a.a
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:21
+COVA_CALL_INFORMATION:specialinvoke $r6.<c.a.a.a.a: void <init>(io.github.subhamtyagi.nightmode.LandingPage)>($r0)
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:22
+COVA_CALL_INFORMATION:$r0.<c.a.a.a.a: io.github.subhamtyagi.nightmode.LandingPage a> = $r1
+COVA_CONSTRAINT_INFORMATION:<c.a.a.a.a: void <init>(io.github.subhamtyagi.nightmode.LandingPage)>:0
+COVA_CALL_INFORMATION:specialinvoke $r0.<java.lang.Object: void <init>()>()
+COVA_CONSTRAINT_INFORMATION:<c.a.a.a.a: void <init>(io.github.subhamtyagi.nightmode.LandingPage)>:1
+COVA_CALL_INFORMATION:virtualinvoke $r3.<android.widget.RadioGroup: void setOnCheckedChangeListener(android.widget.RadioGroup$OnCheckedChangeListener)>($r6)
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: void onCreate(android.os.Bundle)>:23
+COVA_CALL_INFORMATION:$r1 = virtualinvoke $r0.<a.b.a.m: android.view.MenuInflater getMenuInflater()>()
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: boolean onCreateOptionsMenu(android.view.Menu)>:0
+COVA_CALL_INFORMATION:virtualinvoke $r1.<android.view.MenuInflater: void inflate(int,android.view.Menu)>(2131427328, $r2)
+COVA_CONSTRAINT_INFORMATION:<io.github.subhamtyagi.nightmode.LandingPage: boolean onCreateOptionsMenu(android.view.Menu)>:1

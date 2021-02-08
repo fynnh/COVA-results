@@ -1,0 +1,24 @@
+COVA_CALL_INFORMATION:specialinvoke $r0.<android.support.v7.app.AppCompatActivity: void <init>()>()
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void <init>()>:0
+COVA_CALL_INFORMATION:specialinvoke $r0.<android.support.v7.app.AppCompatActivity: void onCreate(android.os.Bundle)>($r2)
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void onCreate(android.os.Bundle)>:0
+COVA_CALL_INFORMATION:virtualinvoke $r0.<com.zola.bmi.BMIMain: void setContentView(int)>(2131361820)
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void onCreate(android.os.Bundle)>:1
+COVA_CALL_INFORMATION:if $r2 != null goto return
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void onCreate(android.os.Bundle)>:2
+COVA_CALL_INFORMATION:$r3 = virtualinvoke $r0.<com.zola.bmi.BMIMain: android.support.v4.app.FragmentManager getSupportFragmentManager()>()
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void onCreate(android.os.Bundle)>:3
+COVA_CALL_INFORMATION:$r4 = virtualinvoke $r3.<android.support.v4.app.FragmentManager: android.support.v4.app.FragmentTransaction beginTransaction()>()
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void onCreate(android.os.Bundle)>:4
+COVA_CALL_INFORMATION:$r1 = new com.zola.bmi.BMIMain$PlaceholderFragment
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void onCreate(android.os.Bundle)>:5
+COVA_CALL_INFORMATION:specialinvoke $r1.<com.zola.bmi.BMIMain$PlaceholderFragment: void <init>()>()
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void onCreate(android.os.Bundle)>:6
+COVA_CALL_INFORMATION:specialinvoke $r0.<android.support.v4.app.Fragment: void <init>()>()
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain$PlaceholderFragment: void <init>()>:0
+COVA_CALL_INFORMATION:$r4 = virtualinvoke $r4.<android.support.v4.app.FragmentTransaction: android.support.v4.app.FragmentTransaction add(int,android.support.v4.app.Fragment)>(2131230764, $r1)
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void onCreate(android.os.Bundle)>:7
+COVA_CALL_INFORMATION:virtualinvoke $r4.<android.support.v4.app.FragmentTransaction: int commit()>()
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void onCreate(android.os.Bundle)>:8
+COVA_CALL_INFORMATION:$r2 = virtualinvoke $r3.<android.view.LayoutInflater: android.view.View inflate(int,android.view.ViewGroup,boolean)>(2131361821, $r1, 0)
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain$PlaceholderFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>:0

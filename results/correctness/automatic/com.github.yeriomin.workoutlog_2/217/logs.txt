@@ -1,0 +1,558 @@
+COVA_CALL_INFORMATION:specialinvoke $r0.<android.app.ListActivity: void <init>()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: void <init>()>:0
+COVA_CALL_INFORMATION:specialinvoke $r0.<android.app.ListActivity: void onCreate(android.os.Bundle)>($r1)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: void onCreate(android.os.Bundle)>:0
+COVA_CALL_INFORMATION:virtualinvoke $r0.<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: void setContentView(int)>(2130968577)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: void onCreate(android.os.Bundle)>:1
+COVA_CALL_INFORMATION:$r2 = virtualinvoke $r0.<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: android.view.View findViewById(int)>(16908298)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: void onCreate(android.os.Bundle)>:2
+COVA_CALL_INFORMATION:$r3 = (android.widget.ExpandableListView) $r2
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: void onCreate(android.os.Bundle)>:3
+COVA_CALL_INFORMATION:$r4 = virtualinvoke $r0.<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: android.view.LayoutInflater getLayoutInflater()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: void onCreate(android.os.Bundle)>:4
+COVA_CALL_INFORMATION:$r2 = virtualinvoke $r4.<android.view.LayoutInflater: android.view.View inflate(int,android.view.ViewGroup,boolean)>(2130968579, $r3, 0)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: void onCreate(android.os.Bundle)>:5
+COVA_CALL_INFORMATION:virtualinvoke $r2.<android.view.View: void setClickable(boolean)>(1)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: void onCreate(android.os.Bundle)>:6
+COVA_CALL_INFORMATION:virtualinvoke $r3.<android.widget.ExpandableListView: void addHeaderView(android.view.View)>($r2)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: void onCreate(android.os.Bundle)>:7
+COVA_CALL_INFORMATION:specialinvoke $r0.<android.app.ListActivity: void onResume()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: void onResume()>:0
+COVA_CALL_INFORMATION:specialinvoke $r0.<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: void fillExerciseList()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: void onResume()>:1
+COVA_CALL_INFORMATION:$r2 = virtualinvoke $r0.<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: android.view.View findViewById(int)>(16908298)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: void fillExerciseList()>:0
+COVA_CALL_INFORMATION:$r3 = (android.widget.ExpandableListView) $r2
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: void fillExerciseList()>:1
+COVA_CALL_INFORMATION:$r1 = new com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: void fillExerciseList()>:2
+COVA_CALL_INFORMATION:$r4 = specialinvoke $r0.<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: java.util.List getExercises()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: void fillExerciseList()>:3
+COVA_CALL_INFORMATION:$r3 = virtualinvoke $r0.<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: android.content.Context getApplicationContext()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: java.util.List getExercises()>:0
+COVA_CALL_INFORMATION:$r4 = staticinvoke <com.github.yeriomin.workoutlog.Model.OpenCloseHelper: com.github.yeriomin.workoutlog.Model.DaoMaster$DevOpenHelper getDbHelper(android.content.Context)>($r3)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: java.util.List getExercises()>:1
+COVA_CALL_INFORMATION:$r1 = <com.github.yeriomin.workoutlog.Model.OpenCloseHelper: com.github.yeriomin.workoutlog.Model.DaoMaster$DevOpenHelper dbHelper>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.OpenCloseHelper: com.github.yeriomin.workoutlog.Model.DaoMaster$DevOpenHelper getDbHelper(android.content.Context)>:0
+COVA_CALL_INFORMATION:if $r1 != null goto $r1 = <com.github.yeriomin.workoutlog.Model.OpenCloseHelper: com.github.yeriomin.workoutlog.Model.DaoMaster$DevOpenHelper dbHelper>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.OpenCloseHelper: com.github.yeriomin.workoutlog.Model.DaoMaster$DevOpenHelper getDbHelper(android.content.Context)>:1
+COVA_CALL_INFORMATION:$r1 = new com.github.yeriomin.workoutlog.Model.DaoMaster$DevOpenHelper
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.OpenCloseHelper: com.github.yeriomin.workoutlog.Model.DaoMaster$DevOpenHelper getDbHelper(android.content.Context)>:2
+COVA_CALL_INFORMATION:specialinvoke $r1.<com.github.yeriomin.workoutlog.Model.DaoMaster$DevOpenHelper: void <init>(android.content.Context,java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory)>($r0, "WorkoutLog.db", null)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.OpenCloseHelper: com.github.yeriomin.workoutlog.Model.DaoMaster$DevOpenHelper getDbHelper(android.content.Context)>:3
+COVA_CALL_INFORMATION:specialinvoke $r0.<com.github.yeriomin.workoutlog.Model.DaoMaster$OpenHelper: void <init>(android.content.Context,java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory)>($r1, $r2, $r3)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoMaster$DevOpenHelper: void <init>(android.content.Context,java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory)>:0
+COVA_CALL_INFORMATION:specialinvoke $r0.<android.database.sqlite.SQLiteOpenHelper: void <init>(android.content.Context,java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)>($r1, $r2, $r3, 1)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoMaster$OpenHelper: void <init>(android.content.Context,java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory)>:0
+COVA_CALL_INFORMATION:<com.github.yeriomin.workoutlog.Model.OpenCloseHelper: com.github.yeriomin.workoutlog.Model.DaoMaster$DevOpenHelper dbHelper> = $r1
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.OpenCloseHelper: com.github.yeriomin.workoutlog.Model.DaoMaster$DevOpenHelper getDbHelper(android.content.Context)>:4
+COVA_CALL_INFORMATION:$r1 = <com.github.yeriomin.workoutlog.Model.OpenCloseHelper: com.github.yeriomin.workoutlog.Model.DaoMaster$DevOpenHelper dbHelper>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.OpenCloseHelper: com.github.yeriomin.workoutlog.Model.DaoMaster$DevOpenHelper getDbHelper(android.content.Context)>:5
+COVA_CALL_INFORMATION:$r5 = virtualinvoke $r4.<com.github.yeriomin.workoutlog.Model.DaoMaster$DevOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: java.util.List getExercises()>:2
+COVA_CALL_INFORMATION:staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("greenDAO", "Creating tables for schema version 1")
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoMaster$OpenHelper: void onCreate(android.database.sqlite.SQLiteDatabase)>:0
+COVA_CALL_INFORMATION:staticinvoke <com.github.yeriomin.workoutlog.Model.DaoMaster: void createAllTables(android.database.sqlite.SQLiteDatabase,boolean)>($r1, 0)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoMaster$OpenHelper: void onCreate(android.database.sqlite.SQLiteDatabase)>:1
+COVA_CALL_INFORMATION:staticinvoke <com.github.yeriomin.workoutlog.Model.ExerciseTypeDao: void createTable(android.database.sqlite.SQLiteDatabase,boolean)>($r0, $z0)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoMaster: void createAllTables(android.database.sqlite.SQLiteDatabase,boolean)>:0
+COVA_CALL_INFORMATION:if $z0 == 0 goto $r1 = ""
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseTypeDao: void createTable(android.database.sqlite.SQLiteDatabase,boolean)>:0
+COVA_CALL_INFORMATION:$r1 = ""
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseTypeDao: void createTable(android.database.sqlite.SQLiteDatabase,boolean)>:9
+COVA_CALL_INFORMATION:$r2 = new java.lang.StringBuilder
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseTypeDao: void createTable(android.database.sqlite.SQLiteDatabase,boolean)>:2
+COVA_CALL_INFORMATION:specialinvoke $r2.<java.lang.StringBuilder: void <init>()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseTypeDao: void createTable(android.database.sqlite.SQLiteDatabase,boolean)>:3
+COVA_CALL_INFORMATION:$r2 = virtualinvoke $r2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("CREATE TABLE ")
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseTypeDao: void createTable(android.database.sqlite.SQLiteDatabase,boolean)>:4
+COVA_CALL_INFORMATION:$r2 = virtualinvoke $r2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r1)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseTypeDao: void createTable(android.database.sqlite.SQLiteDatabase,boolean)>:5
+COVA_CALL_INFORMATION:$r2 = virtualinvoke $r2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("\"EXERCISE_TYPE\" (\"_id\" INTEGER PRIMARY KEY AUTOINCREMENT ,\"NAME\" TEXT NOT NULL UNIQUE );")
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseTypeDao: void createTable(android.database.sqlite.SQLiteDatabase,boolean)>:6
+COVA_CALL_INFORMATION:$r1 = virtualinvoke $r2.<java.lang.StringBuilder: java.lang.String toString()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseTypeDao: void createTable(android.database.sqlite.SQLiteDatabase,boolean)>:7
+COVA_CALL_INFORMATION:virtualinvoke $r0.<android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>($r1)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseTypeDao: void createTable(android.database.sqlite.SQLiteDatabase,boolean)>:8
+COVA_CALL_INFORMATION:staticinvoke <com.github.yeriomin.workoutlog.Model.ExerciseDao: void createTable(android.database.sqlite.SQLiteDatabase,boolean)>($r0, $z0)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoMaster: void createAllTables(android.database.sqlite.SQLiteDatabase,boolean)>:1
+COVA_CALL_INFORMATION:if $z0 == 0 goto $r1 = ""
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao: void createTable(android.database.sqlite.SQLiteDatabase,boolean)>:0
+COVA_CALL_INFORMATION:$r1 = ""
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao: void createTable(android.database.sqlite.SQLiteDatabase,boolean)>:16
+COVA_CALL_INFORMATION:$r2 = new java.lang.StringBuilder
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao: void createTable(android.database.sqlite.SQLiteDatabase,boolean)>:2
+COVA_CALL_INFORMATION:specialinvoke $r2.<java.lang.StringBuilder: void <init>()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao: void createTable(android.database.sqlite.SQLiteDatabase,boolean)>:3
+COVA_CALL_INFORMATION:$r2 = virtualinvoke $r2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("CREATE TABLE ")
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao: void createTable(android.database.sqlite.SQLiteDatabase,boolean)>:4
+COVA_CALL_INFORMATION:$r2 = virtualinvoke $r2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r1)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao: void createTable(android.database.sqlite.SQLiteDatabase,boolean)>:5
+COVA_CALL_INFORMATION:$r2 = virtualinvoke $r2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("\"EXERCISE\" (\"TIMESTAMP\" INTEGER,\"REPS\" INTEGER,\"WEIGHT\" INTEGER,\"TYPE_ID\" INTEGER NOT NULL );")
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao: void createTable(android.database.sqlite.SQLiteDatabase,boolean)>:6
+COVA_CALL_INFORMATION:$r3 = virtualinvoke $r2.<java.lang.StringBuilder: java.lang.String toString()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao: void createTable(android.database.sqlite.SQLiteDatabase,boolean)>:7
+COVA_CALL_INFORMATION:virtualinvoke $r0.<android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>($r3)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao: void createTable(android.database.sqlite.SQLiteDatabase,boolean)>:8
+COVA_CALL_INFORMATION:$r2 = new java.lang.StringBuilder
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao: void createTable(android.database.sqlite.SQLiteDatabase,boolean)>:9
+COVA_CALL_INFORMATION:specialinvoke $r2.<java.lang.StringBuilder: void <init>()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao: void createTable(android.database.sqlite.SQLiteDatabase,boolean)>:10
+COVA_CALL_INFORMATION:$r2 = virtualinvoke $r2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("CREATE INDEX ")
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao: void createTable(android.database.sqlite.SQLiteDatabase,boolean)>:11
+COVA_CALL_INFORMATION:$r2 = virtualinvoke $r2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>($r1)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao: void createTable(android.database.sqlite.SQLiteDatabase,boolean)>:12
+COVA_CALL_INFORMATION:$r2 = virtualinvoke $r2.<java.lang.StringBuilder: java.lang.StringBuilder append(java.lang.String)>("timestamp ON EXERCISE (\"TIMESTAMP\");")
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao: void createTable(android.database.sqlite.SQLiteDatabase,boolean)>:13
+COVA_CALL_INFORMATION:$r1 = virtualinvoke $r2.<java.lang.StringBuilder: java.lang.String toString()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao: void createTable(android.database.sqlite.SQLiteDatabase,boolean)>:14
+COVA_CALL_INFORMATION:virtualinvoke $r0.<android.database.sqlite.SQLiteDatabase: void execSQL(java.lang.String)>($r1)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao: void createTable(android.database.sqlite.SQLiteDatabase,boolean)>:15
+COVA_CALL_INFORMATION:$r1 = new com.github.yeriomin.workoutlog.Model.DaoMaster
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: java.util.List getExercises()>:3
+COVA_CALL_INFORMATION:specialinvoke $r1.<com.github.yeriomin.workoutlog.Model.DaoMaster: void <init>(android.database.sqlite.SQLiteDatabase)>($r5)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: java.util.List getExercises()>:4
+COVA_CALL_INFORMATION:specialinvoke $r0.<de.greenrobot.dao.AbstractDaoMaster: void <init>(android.database.sqlite.SQLiteDatabase,int)>($r1, 1)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoMaster: void <init>(android.database.sqlite.SQLiteDatabase)>:0
+COVA_CALL_INFORMATION:virtualinvoke $r0.<com.github.yeriomin.workoutlog.Model.DaoMaster: void registerDaoClass(java.lang.Class)>(class "Lcom/github/yeriomin/workoutlog/Model/ExerciseTypeDao;")
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoMaster: void <init>(android.database.sqlite.SQLiteDatabase)>:1
+COVA_CALL_INFORMATION:$r0 = new de.greenrobot.dao.Property
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseTypeDao$Properties: void <clinit>()>:0
+COVA_CALL_INFORMATION:specialinvoke $r0.<de.greenrobot.dao.Property: void <init>(int,java.lang.Class,java.lang.String,boolean,java.lang.String)>(0, class "Ljava/lang/Long;", "id", 1, "_id")
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseTypeDao$Properties: void <clinit>()>:1
+COVA_CALL_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseTypeDao$Properties: de.greenrobot.dao.Property Id> = $r0
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseTypeDao$Properties: void <clinit>()>:2
+COVA_CALL_INFORMATION:$r0 = new de.greenrobot.dao.Property
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseTypeDao$Properties: void <clinit>()>:3
+COVA_CALL_INFORMATION:specialinvoke $r0.<de.greenrobot.dao.Property: void <init>(int,java.lang.Class,java.lang.String,boolean,java.lang.String)>(1, class "Ljava/lang/String;", "name", 0, "NAME")
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseTypeDao$Properties: void <clinit>()>:4
+COVA_CALL_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseTypeDao$Properties: de.greenrobot.dao.Property Name> = $r0
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseTypeDao$Properties: void <clinit>()>:5
+COVA_CALL_INFORMATION:virtualinvoke $r0.<com.github.yeriomin.workoutlog.Model.DaoMaster: void registerDaoClass(java.lang.Class)>(class "Lcom/github/yeriomin/workoutlog/Model/ExerciseDao;")
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoMaster: void <init>(android.database.sqlite.SQLiteDatabase)>:2
+COVA_CALL_INFORMATION:$r0 = new de.greenrobot.dao.Property
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao$Properties: void <clinit>()>:0
+COVA_CALL_INFORMATION:specialinvoke $r0.<de.greenrobot.dao.Property: void <init>(int,java.lang.Class,java.lang.String,boolean,java.lang.String)>(0, class "Ljava/lang/Long;", "timestamp", 0, "TIMESTAMP")
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao$Properties: void <clinit>()>:1
+COVA_CALL_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao$Properties: de.greenrobot.dao.Property Timestamp> = $r0
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao$Properties: void <clinit>()>:2
+COVA_CALL_INFORMATION:$r0 = new de.greenrobot.dao.Property
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao$Properties: void <clinit>()>:3
+COVA_CALL_INFORMATION:specialinvoke $r0.<de.greenrobot.dao.Property: void <init>(int,java.lang.Class,java.lang.String,boolean,java.lang.String)>(1, class "Ljava/lang/Integer;", "reps", 0, "REPS")
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao$Properties: void <clinit>()>:4
+COVA_CALL_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao$Properties: de.greenrobot.dao.Property Reps> = $r0
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao$Properties: void <clinit>()>:5
+COVA_CALL_INFORMATION:$r0 = new de.greenrobot.dao.Property
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao$Properties: void <clinit>()>:6
+COVA_CALL_INFORMATION:specialinvoke $r0.<de.greenrobot.dao.Property: void <init>(int,java.lang.Class,java.lang.String,boolean,java.lang.String)>(2, class "Ljava/lang/Integer;", "weight", 0, "WEIGHT")
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao$Properties: void <clinit>()>:7
+COVA_CALL_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao$Properties: de.greenrobot.dao.Property Weight> = $r0
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao$Properties: void <clinit>()>:8
+COVA_CALL_INFORMATION:$r0 = new de.greenrobot.dao.Property
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao$Properties: void <clinit>()>:9
+COVA_CALL_INFORMATION:$r1 = <java.lang.Long: java.lang.Class TYPE>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao$Properties: void <clinit>()>:10
+COVA_CALL_INFORMATION:specialinvoke $r0.<de.greenrobot.dao.Property: void <init>(int,java.lang.Class,java.lang.String,boolean,java.lang.String)>(3, $r1, "typeId", 0, "TYPE_ID")
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao$Properties: void <clinit>()>:11
+COVA_CALL_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao$Properties: de.greenrobot.dao.Property TypeId> = $r0
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao$Properties: void <clinit>()>:12
+COVA_CALL_INFORMATION:$r6 = virtualinvoke $r1.<com.github.yeriomin.workoutlog.Model.DaoMaster: com.github.yeriomin.workoutlog.Model.DaoSession newSession()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: java.util.List getExercises()>:5
+COVA_CALL_INFORMATION:$r1 = new com.github.yeriomin.workoutlog.Model.DaoSession
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoMaster: com.github.yeriomin.workoutlog.Model.DaoSession newSession()>:0
+COVA_CALL_INFORMATION:$r2 = $r0.<com.github.yeriomin.workoutlog.Model.DaoMaster: android.database.sqlite.SQLiteDatabase db>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoMaster: com.github.yeriomin.workoutlog.Model.DaoSession newSession()>:1
+COVA_CALL_INFORMATION:$r3 = <de.greenrobot.dao.identityscope.IdentityScopeType: de.greenrobot.dao.identityscope.IdentityScopeType Session>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoMaster: com.github.yeriomin.workoutlog.Model.DaoSession newSession()>:2
+COVA_CALL_INFORMATION:$r4 = $r0.<com.github.yeriomin.workoutlog.Model.DaoMaster: java.util.Map daoConfigMap>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoMaster: com.github.yeriomin.workoutlog.Model.DaoSession newSession()>:3
+COVA_CALL_INFORMATION:specialinvoke $r1.<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>($r2, $r3, $r4)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoMaster: com.github.yeriomin.workoutlog.Model.DaoSession newSession()>:4
+COVA_CALL_INFORMATION:specialinvoke $r0.<de.greenrobot.dao.AbstractDaoSession: void <init>(android.database.sqlite.SQLiteDatabase)>($r1)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:0
+COVA_CALL_INFORMATION:$r4 = interfaceinvoke $r3.<java.util.Map: java.lang.Object get(java.lang.Object)>(class "Lcom/github/yeriomin/workoutlog/Model/ExerciseTypeDao;")
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:1
+COVA_CALL_INFORMATION:$r5 = (de.greenrobot.dao.internal.DaoConfig) $r4
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:2
+COVA_CALL_INFORMATION:$r5 = virtualinvoke $r5.<de.greenrobot.dao.internal.DaoConfig: de.greenrobot.dao.internal.DaoConfig clone()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:3
+COVA_CALL_INFORMATION:$r0.<com.github.yeriomin.workoutlog.Model.DaoSession: de.greenrobot.dao.internal.DaoConfig exerciseTypeDaoConfig> = $r5
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:4
+COVA_CALL_INFORMATION:$r5 = $r0.<com.github.yeriomin.workoutlog.Model.DaoSession: de.greenrobot.dao.internal.DaoConfig exerciseTypeDaoConfig>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:5
+COVA_CALL_INFORMATION:virtualinvoke $r5.<de.greenrobot.dao.internal.DaoConfig: void initIdentityScope(de.greenrobot.dao.identityscope.IdentityScopeType)>($r2)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:6
+COVA_CALL_INFORMATION:$r4 = interfaceinvoke $r3.<java.util.Map: java.lang.Object get(java.lang.Object)>(class "Lcom/github/yeriomin/workoutlog/Model/ExerciseDao;")
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:7
+COVA_CALL_INFORMATION:$r5 = (de.greenrobot.dao.internal.DaoConfig) $r4
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:8
+COVA_CALL_INFORMATION:$r5 = virtualinvoke $r5.<de.greenrobot.dao.internal.DaoConfig: de.greenrobot.dao.internal.DaoConfig clone()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:9
+COVA_CALL_INFORMATION:$r0.<com.github.yeriomin.workoutlog.Model.DaoSession: de.greenrobot.dao.internal.DaoConfig exerciseDaoConfig> = $r5
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:10
+COVA_CALL_INFORMATION:$r5 = $r0.<com.github.yeriomin.workoutlog.Model.DaoSession: de.greenrobot.dao.internal.DaoConfig exerciseDaoConfig>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:11
+COVA_CALL_INFORMATION:virtualinvoke $r5.<de.greenrobot.dao.internal.DaoConfig: void initIdentityScope(de.greenrobot.dao.identityscope.IdentityScopeType)>($r2)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:12
+COVA_CALL_INFORMATION:$r6 = new com.github.yeriomin.workoutlog.Model.ExerciseTypeDao
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:13
+COVA_CALL_INFORMATION:$r5 = $r0.<com.github.yeriomin.workoutlog.Model.DaoSession: de.greenrobot.dao.internal.DaoConfig exerciseTypeDaoConfig>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:14
+COVA_CALL_INFORMATION:specialinvoke $r6.<com.github.yeriomin.workoutlog.Model.ExerciseTypeDao: void <init>(de.greenrobot.dao.internal.DaoConfig,com.github.yeriomin.workoutlog.Model.DaoSession)>($r5, $r0)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:15
+COVA_CALL_INFORMATION:specialinvoke $r0.<de.greenrobot.dao.AbstractDao: void <init>(de.greenrobot.dao.internal.DaoConfig,de.greenrobot.dao.AbstractDaoSession)>($r1, $r2)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseTypeDao: void <init>(de.greenrobot.dao.internal.DaoConfig,com.github.yeriomin.workoutlog.Model.DaoSession)>:0
+COVA_CALL_INFORMATION:$r0.<com.github.yeriomin.workoutlog.Model.DaoSession: com.github.yeriomin.workoutlog.Model.ExerciseTypeDao exerciseTypeDao> = $r6
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:16
+COVA_CALL_INFORMATION:$r7 = new com.github.yeriomin.workoutlog.Model.ExerciseDao
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:17
+COVA_CALL_INFORMATION:$r5 = $r0.<com.github.yeriomin.workoutlog.Model.DaoSession: de.greenrobot.dao.internal.DaoConfig exerciseDaoConfig>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:18
+COVA_CALL_INFORMATION:specialinvoke $r7.<com.github.yeriomin.workoutlog.Model.ExerciseDao: void <init>(de.greenrobot.dao.internal.DaoConfig,com.github.yeriomin.workoutlog.Model.DaoSession)>($r5, $r0)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:19
+COVA_CALL_INFORMATION:specialinvoke $r0.<de.greenrobot.dao.AbstractDao: void <init>(de.greenrobot.dao.internal.DaoConfig,de.greenrobot.dao.AbstractDaoSession)>($r1, $r2)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao: void <init>(de.greenrobot.dao.internal.DaoConfig,com.github.yeriomin.workoutlog.Model.DaoSession)>:0
+COVA_CALL_INFORMATION:$r0.<com.github.yeriomin.workoutlog.Model.ExerciseDao: com.github.yeriomin.workoutlog.Model.DaoSession daoSession> = $r2
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao: void <init>(de.greenrobot.dao.internal.DaoConfig,com.github.yeriomin.workoutlog.Model.DaoSession)>:1
+COVA_CALL_INFORMATION:$r0.<com.github.yeriomin.workoutlog.Model.DaoSession: com.github.yeriomin.workoutlog.Model.ExerciseDao exerciseDao> = $r7
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:20
+COVA_CALL_INFORMATION:$r6 = $r0.<com.github.yeriomin.workoutlog.Model.DaoSession: com.github.yeriomin.workoutlog.Model.ExerciseTypeDao exerciseTypeDao>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:21
+COVA_CALL_INFORMATION:virtualinvoke $r0.<com.github.yeriomin.workoutlog.Model.DaoSession: void registerDao(java.lang.Class,de.greenrobot.dao.AbstractDao)>(class "Lcom/github/yeriomin/workoutlog/Model/ExerciseType;", $r6)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:22
+COVA_CALL_INFORMATION:$r7 = $r0.<com.github.yeriomin.workoutlog.Model.DaoSession: com.github.yeriomin.workoutlog.Model.ExerciseDao exerciseDao>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:23
+COVA_CALL_INFORMATION:virtualinvoke $r0.<com.github.yeriomin.workoutlog.Model.DaoSession: void registerDao(java.lang.Class,de.greenrobot.dao.AbstractDao)>(class "Lcom/github/yeriomin/workoutlog/Model/Exercise;", $r7)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:24
+COVA_CALL_INFORMATION:$r7 = virtualinvoke $r6.<com.github.yeriomin.workoutlog.Model.DaoSession: com.github.yeriomin.workoutlog.Model.ExerciseDao getExerciseDao()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: java.util.List getExercises()>:6
+COVA_CALL_INFORMATION:r1 = $r0.<com.github.yeriomin.workoutlog.Model.DaoSession: com.github.yeriomin.workoutlog.Model.ExerciseDao exerciseDao>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: com.github.yeriomin.workoutlog.Model.ExerciseDao getExerciseDao()>:0
+COVA_CALL_INFORMATION:$r8 = virtualinvoke $r7.<com.github.yeriomin.workoutlog.Model.ExerciseDao: de.greenrobot.dao.query.QueryBuilder queryBuilder()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: java.util.List getExercises()>:7
+COVA_CALL_INFORMATION:$r9 = newarray (de.greenrobot.dao.Property)[1]
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: java.util.List getExercises()>:8
+COVA_CALL_INFORMATION:$r2 = <com.github.yeriomin.workoutlog.Model.ExerciseDao$Properties: de.greenrobot.dao.Property Timestamp>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: java.util.List getExercises()>:9
+COVA_CALL_INFORMATION:$r9[0] = $r2
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: java.util.List getExercises()>:10
+COVA_CALL_INFORMATION:$r8 = virtualinvoke $r8.<de.greenrobot.dao.query.QueryBuilder: de.greenrobot.dao.query.QueryBuilder orderAsc(de.greenrobot.dao.Property[])>($r9)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: java.util.List getExercises()>:11
+COVA_CALL_INFORMATION:$r10 = virtualinvoke $r8.<de.greenrobot.dao.query.QueryBuilder: java.util.List list()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: java.util.List getExercises()>:12
+COVA_CALL_INFORMATION:specialinvoke $r1.<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: void <init>(android.content.Context,java.util.List)>($r0, $r4)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: void fillExerciseList()>:4
+COVA_CALL_INFORMATION:specialinvoke $r0.<android.widget.BaseExpandableListAdapter: void <init>()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: void <init>(android.content.Context,java.util.List)>:0
+COVA_CALL_INFORMATION:$r4 = new java.util.HashMap
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: void <init>(android.content.Context,java.util.List)>:1
+COVA_CALL_INFORMATION:specialinvoke $r4.<java.util.HashMap: void <init>()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: void <init>(android.content.Context,java.util.List)>:2
+COVA_CALL_INFORMATION:$r0.<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: java.util.HashMap exercises> = $r4
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: void <init>(android.content.Context,java.util.List)>:3
+COVA_CALL_INFORMATION:$r5 = new java.util.ArrayList
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: void <init>(android.content.Context,java.util.List)>:4
+COVA_CALL_INFORMATION:specialinvoke $r5.<java.util.ArrayList: void <init>()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: void <init>(android.content.Context,java.util.List)>:5
+COVA_CALL_INFORMATION:$r0.<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: java.util.ArrayList headers> = $r5
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: void <init>(android.content.Context,java.util.List)>:6
+COVA_CALL_INFORMATION:$r0.<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: android.content.Context context> = $r1
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: void <init>(android.content.Context,java.util.List)>:7
+COVA_CALL_INFORMATION:$r4 = new java.util.HashMap
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: void <init>(android.content.Context,java.util.List)>:8
+COVA_CALL_INFORMATION:specialinvoke $r4.<java.util.HashMap: void <init>()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: void <init>(android.content.Context,java.util.List)>:9
+COVA_CALL_INFORMATION:$r3 = new java.util.Date
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: void <init>(android.content.Context,java.util.List)>:10
+COVA_CALL_INFORMATION:specialinvoke $r3.<java.util.Date: void <init>()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: void <init>(android.content.Context,java.util.List)>:11
+COVA_CALL_INFORMATION:$r6 = interfaceinvoke $r2.<java.util.List: java.util.Iterator iterator()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: void <init>(android.content.Context,java.util.List)>:12
+COVA_CALL_INFORMATION:$z0 = interfaceinvoke $r6.<java.util.Iterator: boolean hasNext()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: void <init>(android.content.Context,java.util.List)>:13
+COVA_CALL_INFORMATION:if $z0 == 0 goto $r16 = virtualinvoke $r4.<java.util.HashMap: java.util.Set entrySet()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: void <init>(android.content.Context,java.util.List)>:14
+COVA_CALL_INFORMATION:$r16 = virtualinvoke $r4.<java.util.HashMap: java.util.Set entrySet()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: void <init>(android.content.Context,java.util.List)>:51
+COVA_CALL_INFORMATION:$r6 = interfaceinvoke $r16.<java.util.Set: java.util.Iterator iterator()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: void <init>(android.content.Context,java.util.List)>:52
+COVA_CALL_INFORMATION:$z0 = interfaceinvoke $r6.<java.util.Iterator: boolean hasNext()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: void <init>(android.content.Context,java.util.List)>:53
+COVA_CALL_INFORMATION:if $z0 == 0 goto return
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: void <init>(android.content.Context,java.util.List)>:54
+COVA_CALL_INFORMATION:virtualinvoke $r3.<android.widget.ExpandableListView: void setAdapter(android.widget.ExpandableListAdapter)>($r1)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: void fillExerciseList()>:5
+COVA_CALL_INFORMATION:$r1 = $r0.<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: java.util.ArrayList headers>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:0
+COVA_CALL_INFORMATION:$i0 = virtualinvoke $r1.<java.util.ArrayList: int size()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:1
+COVA_CALL_INFORMATION:$r1 = $r0.<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: java.util.ArrayList headers>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:0
+COVA_CALL_INFORMATION:$i0 = virtualinvoke $r1.<java.util.ArrayList: int size()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:1
+COVA_CALL_INFORMATION:$r1 = $r0.<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: java.util.ArrayList headers>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:0
+COVA_CALL_INFORMATION:$i0 = virtualinvoke $r1.<java.util.ArrayList: int size()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:1
+COVA_CALL_INFORMATION:$r1 = $r0.<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: java.util.ArrayList headers>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:0
+COVA_CALL_INFORMATION:$i0 = virtualinvoke $r1.<java.util.ArrayList: int size()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:1
+COVA_CALL_INFORMATION:$r1 = $r0.<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: java.util.ArrayList headers>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:0
+COVA_CALL_INFORMATION:$i0 = virtualinvoke $r1.<java.util.ArrayList: int size()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:1
+COVA_CALL_INFORMATION:$r1 = $r0.<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: java.util.ArrayList headers>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:0
+COVA_CALL_INFORMATION:$i0 = virtualinvoke $r1.<java.util.ArrayList: int size()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:1
+COVA_CALL_INFORMATION:$r1 = $r0.<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: java.util.ArrayList headers>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:0
+COVA_CALL_INFORMATION:$i0 = virtualinvoke $r1.<java.util.ArrayList: int size()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:1
+COVA_CALL_INFORMATION:$r1 = $r0.<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: java.util.ArrayList headers>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:0
+COVA_CALL_INFORMATION:$i0 = virtualinvoke $r1.<java.util.ArrayList: int size()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:1
+COVA_CALL_INFORMATION:$r1 = $r0.<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: java.util.ArrayList headers>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:0
+COVA_CALL_INFORMATION:$i0 = virtualinvoke $r1.<java.util.ArrayList: int size()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:1
+COVA_CALL_INFORMATION:$r1 = $r0.<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: java.util.ArrayList headers>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:0
+COVA_CALL_INFORMATION:$i0 = virtualinvoke $r1.<java.util.ArrayList: int size()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:1
+COVA_CALL_INFORMATION:$r1 = $r0.<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: java.util.ArrayList headers>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:0
+COVA_CALL_INFORMATION:$i0 = virtualinvoke $r1.<java.util.ArrayList: int size()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:1
+COVA_CALL_INFORMATION:$r1 = $r0.<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: java.util.ArrayList headers>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:0
+COVA_CALL_INFORMATION:$i0 = virtualinvoke $r1.<java.util.ArrayList: int size()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:1
+COVA_CALL_INFORMATION:$r1 = $r0.<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: java.util.ArrayList headers>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:0
+COVA_CALL_INFORMATION:$i0 = virtualinvoke $r1.<java.util.ArrayList: int size()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:1
+COVA_CALL_INFORMATION:$r1 = $r0.<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: java.util.ArrayList headers>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:0
+COVA_CALL_INFORMATION:$i0 = virtualinvoke $r1.<java.util.ArrayList: int size()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:1
+COVA_CALL_INFORMATION:$r1 = $r0.<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: java.util.ArrayList headers>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:0
+COVA_CALL_INFORMATION:$i0 = virtualinvoke $r1.<java.util.ArrayList: int size()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:1
+COVA_CALL_INFORMATION:$r2 = new android.content.Intent
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: void gotoNextActivity(android.view.View)>:0
+COVA_CALL_INFORMATION:$r3 = virtualinvoke $r0.<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: android.content.Context getApplicationContext()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: void gotoNextActivity(android.view.View)>:1
+COVA_CALL_INFORMATION:specialinvoke $r2.<android.content.Intent: void <init>(android.content.Context,java.lang.Class)>($r3, class "Lcom/github/yeriomin/workoutlog/Activity/AddExerciseActivity;")
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: void gotoNextActivity(android.view.View)>:2
+COVA_CALL_INFORMATION:virtualinvoke $r0.<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: void startActivity(android.content.Intent)>($r2)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: void gotoNextActivity(android.view.View)>:3
+COVA_CALL_INFORMATION:$r1 = $r0.<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: java.util.ArrayList headers>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:0
+COVA_CALL_INFORMATION:$i0 = virtualinvoke $r1.<java.util.ArrayList: int size()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:1
+COVA_CALL_INFORMATION:$r1 = $r0.<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: java.util.ArrayList headers>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:0
+COVA_CALL_INFORMATION:$i0 = virtualinvoke $r1.<java.util.ArrayList: int size()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Adapter.ExerciseAdapter: int getGroupCount()>:1
+COVA_CALL_INFORMATION:specialinvoke $r0.<android.app.ListActivity: void onPause()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: void onPause()>:0
+COVA_CALL_INFORMATION:staticinvoke <com.github.yeriomin.workoutlog.Model.OpenCloseHelper: void closeDbHelper()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.ExerciseListActivity: void onPause()>:1
+COVA_CALL_INFORMATION:$r0 = <com.github.yeriomin.workoutlog.Model.OpenCloseHelper: com.github.yeriomin.workoutlog.Model.DaoMaster$DevOpenHelper dbHelper>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.OpenCloseHelper: void closeDbHelper()>:0
+COVA_CALL_INFORMATION:if $r0 == null goto return
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.OpenCloseHelper: void closeDbHelper()>:1
+COVA_CALL_INFORMATION:$r0 = <com.github.yeriomin.workoutlog.Model.OpenCloseHelper: com.github.yeriomin.workoutlog.Model.DaoMaster$DevOpenHelper dbHelper>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.OpenCloseHelper: void closeDbHelper()>:2
+COVA_CALL_INFORMATION:virtualinvoke $r0.<com.github.yeriomin.workoutlog.Model.DaoMaster$DevOpenHelper: void close()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.OpenCloseHelper: void closeDbHelper()>:3
+COVA_CALL_INFORMATION:specialinvoke $r0.<android.app.Activity: void <init>()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void <init>()>:0
+COVA_CALL_INFORMATION:$r1 = new java.util.HashMap
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void <init>()>:1
+COVA_CALL_INFORMATION:specialinvoke $r1.<java.util.HashMap: void <init>()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void <init>()>:2
+COVA_CALL_INFORMATION:$r0.<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: java.util.HashMap typeIds> = $r1
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void <init>()>:3
+COVA_CALL_INFORMATION:$r0.<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: java.lang.String previousType> = ""
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void <init>()>:4
+COVA_CALL_INFORMATION:specialinvoke $r0.<android.app.Activity: void onCreate(android.os.Bundle)>($r1)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void onCreate(android.os.Bundle)>:0
+COVA_CALL_INFORMATION:virtualinvoke $r0.<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void setContentView(int)>(2130968576)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void onCreate(android.os.Bundle)>:1
+COVA_CALL_INFORMATION:$r3 = virtualinvoke $r0.<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: android.view.View findViewById(int)>(2131230720)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void onCreate(android.os.Bundle)>:2
+COVA_CALL_INFORMATION:$r4 = (android.widget.AutoCompleteTextView) $r3
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void onCreate(android.os.Bundle)>:3
+COVA_CALL_INFORMATION:$r2 = new android.widget.ArrayAdapter
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void onCreate(android.os.Bundle)>:4
+COVA_CALL_INFORMATION:$r5 = specialinvoke $r0.<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: java.util.List getAllTypes()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void onCreate(android.os.Bundle)>:5
+COVA_CALL_INFORMATION:$r3 = virtualinvoke $r0.<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: android.content.Context getApplicationContext()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: java.util.List getAllTypes()>:0
+COVA_CALL_INFORMATION:$r4 = staticinvoke <com.github.yeriomin.workoutlog.Model.OpenCloseHelper: com.github.yeriomin.workoutlog.Model.DaoMaster$DevOpenHelper getDbHelper(android.content.Context)>($r3)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: java.util.List getAllTypes()>:1
+COVA_CALL_INFORMATION:$r1 = <com.github.yeriomin.workoutlog.Model.OpenCloseHelper: com.github.yeriomin.workoutlog.Model.DaoMaster$DevOpenHelper dbHelper>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.OpenCloseHelper: com.github.yeriomin.workoutlog.Model.DaoMaster$DevOpenHelper getDbHelper(android.content.Context)>:0
+COVA_CALL_INFORMATION:if $r1 != null goto $r1 = <com.github.yeriomin.workoutlog.Model.OpenCloseHelper: com.github.yeriomin.workoutlog.Model.DaoMaster$DevOpenHelper dbHelper>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.OpenCloseHelper: com.github.yeriomin.workoutlog.Model.DaoMaster$DevOpenHelper getDbHelper(android.content.Context)>:1
+COVA_CALL_INFORMATION:$r1 = <com.github.yeriomin.workoutlog.Model.OpenCloseHelper: com.github.yeriomin.workoutlog.Model.DaoMaster$DevOpenHelper dbHelper>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.OpenCloseHelper: com.github.yeriomin.workoutlog.Model.DaoMaster$DevOpenHelper getDbHelper(android.content.Context)>:5
+COVA_CALL_INFORMATION:$r5 = virtualinvoke $r4.<com.github.yeriomin.workoutlog.Model.DaoMaster$DevOpenHelper: android.database.sqlite.SQLiteDatabase getWritableDatabase()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: java.util.List getAllTypes()>:2
+COVA_CALL_INFORMATION:$r1 = new com.github.yeriomin.workoutlog.Model.DaoMaster
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: java.util.List getAllTypes()>:3
+COVA_CALL_INFORMATION:specialinvoke $r1.<com.github.yeriomin.workoutlog.Model.DaoMaster: void <init>(android.database.sqlite.SQLiteDatabase)>($r5)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: java.util.List getAllTypes()>:4
+COVA_CALL_INFORMATION:specialinvoke $r0.<de.greenrobot.dao.AbstractDaoMaster: void <init>(android.database.sqlite.SQLiteDatabase,int)>($r1, 1)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoMaster: void <init>(android.database.sqlite.SQLiteDatabase)>:0
+COVA_CALL_INFORMATION:virtualinvoke $r0.<com.github.yeriomin.workoutlog.Model.DaoMaster: void registerDaoClass(java.lang.Class)>(class "Lcom/github/yeriomin/workoutlog/Model/ExerciseTypeDao;")
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoMaster: void <init>(android.database.sqlite.SQLiteDatabase)>:1
+COVA_CALL_INFORMATION:virtualinvoke $r0.<com.github.yeriomin.workoutlog.Model.DaoMaster: void registerDaoClass(java.lang.Class)>(class "Lcom/github/yeriomin/workoutlog/Model/ExerciseDao;")
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoMaster: void <init>(android.database.sqlite.SQLiteDatabase)>:2
+COVA_CALL_INFORMATION:$r6 = virtualinvoke $r1.<com.github.yeriomin.workoutlog.Model.DaoMaster: com.github.yeriomin.workoutlog.Model.DaoSession newSession()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: java.util.List getAllTypes()>:5
+COVA_CALL_INFORMATION:$r1 = new com.github.yeriomin.workoutlog.Model.DaoSession
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoMaster: com.github.yeriomin.workoutlog.Model.DaoSession newSession()>:0
+COVA_CALL_INFORMATION:$r2 = $r0.<com.github.yeriomin.workoutlog.Model.DaoMaster: android.database.sqlite.SQLiteDatabase db>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoMaster: com.github.yeriomin.workoutlog.Model.DaoSession newSession()>:1
+COVA_CALL_INFORMATION:$r3 = <de.greenrobot.dao.identityscope.IdentityScopeType: de.greenrobot.dao.identityscope.IdentityScopeType Session>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoMaster: com.github.yeriomin.workoutlog.Model.DaoSession newSession()>:2
+COVA_CALL_INFORMATION:$r4 = $r0.<com.github.yeriomin.workoutlog.Model.DaoMaster: java.util.Map daoConfigMap>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoMaster: com.github.yeriomin.workoutlog.Model.DaoSession newSession()>:3
+COVA_CALL_INFORMATION:specialinvoke $r1.<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>($r2, $r3, $r4)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoMaster: com.github.yeriomin.workoutlog.Model.DaoSession newSession()>:4
+COVA_CALL_INFORMATION:specialinvoke $r0.<de.greenrobot.dao.AbstractDaoSession: void <init>(android.database.sqlite.SQLiteDatabase)>($r1)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:0
+COVA_CALL_INFORMATION:$r4 = interfaceinvoke $r3.<java.util.Map: java.lang.Object get(java.lang.Object)>(class "Lcom/github/yeriomin/workoutlog/Model/ExerciseTypeDao;")
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:1
+COVA_CALL_INFORMATION:$r5 = (de.greenrobot.dao.internal.DaoConfig) $r4
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:2
+COVA_CALL_INFORMATION:$r5 = virtualinvoke $r5.<de.greenrobot.dao.internal.DaoConfig: de.greenrobot.dao.internal.DaoConfig clone()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:3
+COVA_CALL_INFORMATION:$r0.<com.github.yeriomin.workoutlog.Model.DaoSession: de.greenrobot.dao.internal.DaoConfig exerciseTypeDaoConfig> = $r5
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:4
+COVA_CALL_INFORMATION:$r5 = $r0.<com.github.yeriomin.workoutlog.Model.DaoSession: de.greenrobot.dao.internal.DaoConfig exerciseTypeDaoConfig>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:5
+COVA_CALL_INFORMATION:virtualinvoke $r5.<de.greenrobot.dao.internal.DaoConfig: void initIdentityScope(de.greenrobot.dao.identityscope.IdentityScopeType)>($r2)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:6
+COVA_CALL_INFORMATION:$r4 = interfaceinvoke $r3.<java.util.Map: java.lang.Object get(java.lang.Object)>(class "Lcom/github/yeriomin/workoutlog/Model/ExerciseDao;")
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:7
+COVA_CALL_INFORMATION:$r5 = (de.greenrobot.dao.internal.DaoConfig) $r4
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:8
+COVA_CALL_INFORMATION:$r5 = virtualinvoke $r5.<de.greenrobot.dao.internal.DaoConfig: de.greenrobot.dao.internal.DaoConfig clone()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:9
+COVA_CALL_INFORMATION:$r0.<com.github.yeriomin.workoutlog.Model.DaoSession: de.greenrobot.dao.internal.DaoConfig exerciseDaoConfig> = $r5
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:10
+COVA_CALL_INFORMATION:$r5 = $r0.<com.github.yeriomin.workoutlog.Model.DaoSession: de.greenrobot.dao.internal.DaoConfig exerciseDaoConfig>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:11
+COVA_CALL_INFORMATION:virtualinvoke $r5.<de.greenrobot.dao.internal.DaoConfig: void initIdentityScope(de.greenrobot.dao.identityscope.IdentityScopeType)>($r2)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:12
+COVA_CALL_INFORMATION:$r6 = new com.github.yeriomin.workoutlog.Model.ExerciseTypeDao
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:13
+COVA_CALL_INFORMATION:$r5 = $r0.<com.github.yeriomin.workoutlog.Model.DaoSession: de.greenrobot.dao.internal.DaoConfig exerciseTypeDaoConfig>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:14
+COVA_CALL_INFORMATION:specialinvoke $r6.<com.github.yeriomin.workoutlog.Model.ExerciseTypeDao: void <init>(de.greenrobot.dao.internal.DaoConfig,com.github.yeriomin.workoutlog.Model.DaoSession)>($r5, $r0)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:15
+COVA_CALL_INFORMATION:specialinvoke $r0.<de.greenrobot.dao.AbstractDao: void <init>(de.greenrobot.dao.internal.DaoConfig,de.greenrobot.dao.AbstractDaoSession)>($r1, $r2)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseTypeDao: void <init>(de.greenrobot.dao.internal.DaoConfig,com.github.yeriomin.workoutlog.Model.DaoSession)>:0
+COVA_CALL_INFORMATION:$r0.<com.github.yeriomin.workoutlog.Model.DaoSession: com.github.yeriomin.workoutlog.Model.ExerciseTypeDao exerciseTypeDao> = $r6
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:16
+COVA_CALL_INFORMATION:$r7 = new com.github.yeriomin.workoutlog.Model.ExerciseDao
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:17
+COVA_CALL_INFORMATION:$r5 = $r0.<com.github.yeriomin.workoutlog.Model.DaoSession: de.greenrobot.dao.internal.DaoConfig exerciseDaoConfig>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:18
+COVA_CALL_INFORMATION:specialinvoke $r7.<com.github.yeriomin.workoutlog.Model.ExerciseDao: void <init>(de.greenrobot.dao.internal.DaoConfig,com.github.yeriomin.workoutlog.Model.DaoSession)>($r5, $r0)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:19
+COVA_CALL_INFORMATION:specialinvoke $r0.<de.greenrobot.dao.AbstractDao: void <init>(de.greenrobot.dao.internal.DaoConfig,de.greenrobot.dao.AbstractDaoSession)>($r1, $r2)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao: void <init>(de.greenrobot.dao.internal.DaoConfig,com.github.yeriomin.workoutlog.Model.DaoSession)>:0
+COVA_CALL_INFORMATION:$r0.<com.github.yeriomin.workoutlog.Model.ExerciseDao: com.github.yeriomin.workoutlog.Model.DaoSession daoSession> = $r2
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.ExerciseDao: void <init>(de.greenrobot.dao.internal.DaoConfig,com.github.yeriomin.workoutlog.Model.DaoSession)>:1
+COVA_CALL_INFORMATION:$r0.<com.github.yeriomin.workoutlog.Model.DaoSession: com.github.yeriomin.workoutlog.Model.ExerciseDao exerciseDao> = $r7
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:20
+COVA_CALL_INFORMATION:$r6 = $r0.<com.github.yeriomin.workoutlog.Model.DaoSession: com.github.yeriomin.workoutlog.Model.ExerciseTypeDao exerciseTypeDao>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:21
+COVA_CALL_INFORMATION:virtualinvoke $r0.<com.github.yeriomin.workoutlog.Model.DaoSession: void registerDao(java.lang.Class,de.greenrobot.dao.AbstractDao)>(class "Lcom/github/yeriomin/workoutlog/Model/ExerciseType;", $r6)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:22
+COVA_CALL_INFORMATION:$r7 = $r0.<com.github.yeriomin.workoutlog.Model.DaoSession: com.github.yeriomin.workoutlog.Model.ExerciseDao exerciseDao>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:23
+COVA_CALL_INFORMATION:virtualinvoke $r0.<com.github.yeriomin.workoutlog.Model.DaoSession: void registerDao(java.lang.Class,de.greenrobot.dao.AbstractDao)>(class "Lcom/github/yeriomin/workoutlog/Model/Exercise;", $r7)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: void <init>(android.database.sqlite.SQLiteDatabase,de.greenrobot.dao.identityscope.IdentityScopeType,java.util.Map)>:24
+COVA_CALL_INFORMATION:$r7 = virtualinvoke $r6.<com.github.yeriomin.workoutlog.Model.DaoSession: com.github.yeriomin.workoutlog.Model.ExerciseTypeDao getExerciseTypeDao()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: java.util.List getAllTypes()>:6
+COVA_CALL_INFORMATION:r1 = $r0.<com.github.yeriomin.workoutlog.Model.DaoSession: com.github.yeriomin.workoutlog.Model.ExerciseTypeDao exerciseTypeDao>
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Model.DaoSession: com.github.yeriomin.workoutlog.Model.ExerciseTypeDao getExerciseTypeDao()>:0
+COVA_CALL_INFORMATION:$r8 = virtualinvoke $r7.<com.github.yeriomin.workoutlog.Model.ExerciseTypeDao: de.greenrobot.dao.query.QueryBuilder queryBuilder()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: java.util.List getAllTypes()>:7
+COVA_CALL_INFORMATION:$r9 = virtualinvoke $r8.<de.greenrobot.dao.query.QueryBuilder: java.util.List list()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: java.util.List getAllTypes()>:8
+COVA_CALL_INFORMATION:$r2 = new java.util.ArrayList
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: java.util.List getAllTypes()>:9
+COVA_CALL_INFORMATION:specialinvoke $r2.<java.util.ArrayList: void <init>()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: java.util.List getAllTypes()>:10
+COVA_CALL_INFORMATION:$r10 = interfaceinvoke $r9.<java.util.List: java.util.Iterator iterator()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: java.util.List getAllTypes()>:11
+COVA_CALL_INFORMATION:$z0 = interfaceinvoke $r10.<java.util.Iterator: boolean hasNext()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: java.util.List getAllTypes()>:12
+COVA_CALL_INFORMATION:if $z0 == 0 goto return $r2
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: java.util.List getAllTypes()>:13
+COVA_CALL_INFORMATION:specialinvoke $r2.<android.widget.ArrayAdapter: void <init>(android.content.Context,int,int,java.util.List)>($r0, 2130968583, 2131230725, $r5)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void onCreate(android.os.Bundle)>:6
+COVA_CALL_INFORMATION:virtualinvoke $r4.<android.widget.AutoCompleteTextView: void setAdapter(android.widget.ListAdapter)>($r2)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void onCreate(android.os.Bundle)>:7
+COVA_CALL_INFORMATION:$r6 = new com.github.yeriomin.workoutlog.Activity.AddExerciseActivity$1
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void onCreate(android.os.Bundle)>:8
+COVA_CALL_INFORMATION:specialinvoke $r6.<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity$1: void <init>(com.github.yeriomin.workoutlog.Activity.AddExerciseActivity)>($r0)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void onCreate(android.os.Bundle)>:9
+COVA_CALL_INFORMATION:$r0.<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity$1: com.github.yeriomin.workoutlog.Activity.AddExerciseActivity this$0> = $r1
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity$1: void <init>(com.github.yeriomin.workoutlog.Activity.AddExerciseActivity)>:0
+COVA_CALL_INFORMATION:specialinvoke $r0.<java.lang.Object: void <init>()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity$1: void <init>(com.github.yeriomin.workoutlog.Activity.AddExerciseActivity)>:1
+COVA_CALL_INFORMATION:virtualinvoke $r4.<android.widget.AutoCompleteTextView: void setOnItemClickListener(android.widget.AdapterView$OnItemClickListener)>($r6)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void onCreate(android.os.Bundle)>:10
+COVA_CALL_INFORMATION:$r1 = virtualinvoke $r0.<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: android.view.View findViewById(int)>(2131230720)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void addExercise(android.view.View)>:0
+COVA_CALL_INFORMATION:$r5 = (android.widget.EditText) $r1
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void addExercise(android.view.View)>:1
+COVA_CALL_INFORMATION:$r1 = virtualinvoke $r0.<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: android.view.View findViewById(int)>(2131230722)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void addExercise(android.view.View)>:2
+COVA_CALL_INFORMATION:$r6 = (android.widget.EditText) $r1
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void addExercise(android.view.View)>:3
+COVA_CALL_INFORMATION:$r1 = virtualinvoke $r0.<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: android.view.View findViewById(int)>(2131230721)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void addExercise(android.view.View)>:4
+COVA_CALL_INFORMATION:$r7 = (android.widget.EditText) $r1
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void addExercise(android.view.View)>:5
+COVA_CALL_INFORMATION:$r8 = virtualinvoke $r5.<android.widget.EditText: android.text.Editable getText()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void addExercise(android.view.View)>:6
+COVA_CALL_INFORMATION:$r9 = virtualinvoke $r8.<java.lang.Object: java.lang.String toString()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void addExercise(android.view.View)>:7
+COVA_CALL_INFORMATION:$r8 = virtualinvoke $r6.<android.widget.EditText: android.text.Editable getText()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void addExercise(android.view.View)>:8
+COVA_CALL_INFORMATION:$r10 = virtualinvoke $r8.<java.lang.Object: java.lang.String toString()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void addExercise(android.view.View)>:9
+COVA_CALL_INFORMATION:$r8 = virtualinvoke $r7.<android.widget.EditText: android.text.Editable getText()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void addExercise(android.view.View)>:10
+COVA_CALL_INFORMATION:$r11 = virtualinvoke $r8.<java.lang.Object: java.lang.String toString()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void addExercise(android.view.View)>:11
+COVA_CALL_INFORMATION:$r12 = staticinvoke <java.lang.Boolean: java.lang.Boolean valueOf(boolean)>(1)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void addExercise(android.view.View)>:12
+COVA_CALL_INFORMATION:$i0 = virtualinvoke $r9.<java.lang.String: int length()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void addExercise(android.view.View)>:13
+COVA_CALL_INFORMATION:if $i0 != 0 goto $i0 = virtualinvoke $r10.<java.lang.String: int length()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void addExercise(android.view.View)>:14
+COVA_CALL_INFORMATION:$r13 = virtualinvoke $r0.<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: java.lang.String getString(int)>(2131034117)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void addExercise(android.view.View)>:15
+COVA_CALL_INFORMATION:virtualinvoke $r5.<android.widget.EditText: void setError(java.lang.CharSequence)>($r13)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void addExercise(android.view.View)>:16
+COVA_CALL_INFORMATION:$r12 = staticinvoke <java.lang.Boolean: java.lang.Boolean valueOf(boolean)>(0)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void addExercise(android.view.View)>:17
+COVA_CALL_INFORMATION:$i0 = virtualinvoke $r10.<java.lang.String: int length()>()
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void addExercise(android.view.View)>:18
+COVA_CALL_INFORMATION:if $i0 == 0 goto $r13 = virtualinvoke $r0.<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: java.lang.String getString(int)>(2131034118)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void addExercise(android.view.View)>:19
+COVA_CALL_INFORMATION:$i0 = staticinvoke <java.lang.Integer: int parseInt(java.lang.String)>($r10)
+COVA_CONSTRAINT_INFORMATION:<com.github.yeriomin.workoutlog.Activity.AddExerciseActivity: void addExercise(android.view.View)>:20

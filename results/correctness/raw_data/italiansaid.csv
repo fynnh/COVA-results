@@ -1,0 +1,21 @@
+Target; Path; Correct; Reason
+<italian.said.fran.theitaliansaid.DatabaseHandler: boolean addFav(int,java.lang.String,java.lang.String)>:3;italian.said.fran.theitaliansaid.DatabaseHandler{'activity_main:btnAddFav:onClick': True}; ;
+<italian.said.fran.theitaliansaid.DatabaseHandler: boolean insertData(android.database.sqlite.SQLiteDatabase)>:8;No Constraint; ;
+<italian.said.fran.theitaliansaid.FavActivity: void closeFav()>:0;No Constraint; ;
+<italian.said.fran.theitaliansaid.FavActivity: void showFav(android.database.Cursor)>:4;italian.said.fran.theitaliansaid.MainActivity{'activity_main:btnCheckFav:onClick': True},italian.said.fran.theitaliansaid.FavActivity{}; ;
+<italian.said.fran.theitaliansaid.MainActivity$1: void <init>(italian.said.fran.theitaliansaid.MainActivity)>:0;italian.said.fran.theitaliansaid.MainActivity$1{}; ;
+<italian.said.fran.theitaliansaid.MainActivity$1: void onCheckedChanged(android.widget.CompoundButton,boolean)>:3;italian.said.fran.theitaliansaid.MainActivity$1{'activity_main:btnInfo': True, 'activity_main:btnInfo:onCheckedChanged': True}; ;
+<italian.said.fran.theitaliansaid.MainActivity: void access$100(italian.said.fran.theitaliansaid.MainActivity)>:0;italian.said.fran.theitaliansaid.MainActivity{'activity_main:btnInfo': False, 'activity_main:btnInfo:onCheckedChanged': True}; ;
+<italian.said.fran.theitaliansaid.MainActivity: void btnAddFav(android.view.View)>:5;italian.said.fran.theitaliansaid.MainActivity{'activity_main:btnAddFav:onClick': True}; ;
+<italian.said.fran.theitaliansaid.MainActivity: void btnAddFav(android.view.View)>:9;italian.said.fran.theitaliansaid.MainActivity{'activity_main:btnAddFav:onClick': True}; ;
+<italian.said.fran.theitaliansaid.MainActivity: void changeSays()>:7;italian.said.fran.theitaliansaid.MainActivity{}; ;
+<italian.said.fran.theitaliansaid.MainActivity: void onCreate(android.os.Bundle)>:6;italian.said.fran.theitaliansaid.MainActivity{}; ;
+<italian.said.fran.theitaliansaid.MainActivity: void onCreate(android.os.Bundle)>:15;italian.said.fran.theitaliansaid.MainActivity{}; ;
+<italian.said.fran.theitaliansaid.MainActivity: void onCreate(android.os.Bundle)>:19;italian.said.fran.theitaliansaid.MainActivity{}; ;
+<italian.said.fran.theitaliansaid.MainActivity: void onCreate(android.os.Bundle)>:22;italian.said.fran.theitaliansaid.MainActivity{}; ;
+<italian.said.fran.theitaliansaid.MainActivity: void onCreate(android.os.Bundle)>:26;italian.said.fran.theitaliansaid.MainActivity{}; ;
+<italian.said.fran.theitaliansaid.MainActivity: void onCreate(android.os.Bundle)>:58;italian.said.fran.theitaliansaid.MainActivity{}; ;
+<italian.said.fran.theitaliansaid.MainActivity: void showInfo()>:1;italian.said.fran.theitaliansaid.MainActivity{'activity_main:btnInfo': True, 'activity_main:btnInfo:onCheckedChanged': True}; ;
+<italian.said.fran.theitaliansaid.OnSwipeTouchListener: void <init>(android.content.Context)>:1;italian.said.fran.theitaliansaid.OnSwipeTouchListener{}; ;
+<italian.said.fran.theitaliansaid.OnSwipeTouchListener: void <init>(android.content.Context)>:3;italian.said.fran.theitaliansaid.OnSwipeTouchListener{}; ;
+<italian.said.fran.theitaliansaid.StarView: void <init>(android.content.Context,android.util.AttributeSet)>:0;No Constraint; ;

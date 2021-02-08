@@ -1,0 +1,37 @@
+{
+  "logs": [
+    "COVA_CALL_INFORMATION:specialinvoke $r0.\u003candroid.support.v7.app.AppCompatActivity: void \u003cinit\u003e()\u003e()",
+    "COVA_CONSTRAINT_INFORMATION:\u003ccom.zola.bmi.BMIMain: void \u003cinit\u003e()\u003e:0",
+    "COVA_CALL_INFORMATION:specialinvoke $r0.\u003candroid.support.v7.app.AppCompatActivity: void onCreate(android.os.Bundle)\u003e($r2)",
+    "COVA_CONSTRAINT_INFORMATION:\u003ccom.zola.bmi.BMIMain: void onCreate(android.os.Bundle)\u003e:0",
+    "COVA_CALL_INFORMATION:virtualinvoke $r0.\u003ccom.zola.bmi.BMIMain: void setContentView(int)\u003e(2131361820)",
+    "COVA_CONSTRAINT_INFORMATION:\u003ccom.zola.bmi.BMIMain: void onCreate(android.os.Bundle)\u003e:1",
+    "COVA_CALL_INFORMATION:if $r2 !\u003d null goto return",
+    "COVA_CONSTRAINT_INFORMATION:\u003ccom.zola.bmi.BMIMain: void onCreate(android.os.Bundle)\u003e:2",
+    "COVA_CALL_INFORMATION:$r3 \u003d virtualinvoke $r0.\u003ccom.zola.bmi.BMIMain: android.support.v4.app.FragmentManager getSupportFragmentManager()\u003e()",
+    "COVA_CONSTRAINT_INFORMATION:\u003ccom.zola.bmi.BMIMain: void onCreate(android.os.Bundle)\u003e:3",
+    "COVA_CALL_INFORMATION:$r4 \u003d virtualinvoke $r3.\u003candroid.support.v4.app.FragmentManager: android.support.v4.app.FragmentTransaction beginTransaction()\u003e()",
+    "COVA_CONSTRAINT_INFORMATION:\u003ccom.zola.bmi.BMIMain: void onCreate(android.os.Bundle)\u003e:4",
+    "COVA_CALL_INFORMATION:$r1 \u003d new com.zola.bmi.BMIMain$PlaceholderFragment",
+    "COVA_CONSTRAINT_INFORMATION:\u003ccom.zola.bmi.BMIMain: void onCreate(android.os.Bundle)\u003e:5",
+    "COVA_CALL_INFORMATION:specialinvoke $r1.\u003ccom.zola.bmi.BMIMain$PlaceholderFragment: void \u003cinit\u003e()\u003e()",
+    "COVA_CONSTRAINT_INFORMATION:\u003ccom.zola.bmi.BMIMain: void onCreate(android.os.Bundle)\u003e:6",
+    "COVA_CALL_INFORMATION:specialinvoke $r0.\u003candroid.support.v4.app.Fragment: void \u003cinit\u003e()\u003e()",
+    "COVA_CONSTRAINT_INFORMATION:\u003ccom.zola.bmi.BMIMain$PlaceholderFragment: void \u003cinit\u003e()\u003e:0",
+    "COVA_CALL_INFORMATION:$r4 \u003d virtualinvoke $r4.\u003candroid.support.v4.app.FragmentTransaction: android.support.v4.app.FragmentTransaction add(int,android.support.v4.app.Fragment)\u003e(2131230764, $r1)",
+    "COVA_CONSTRAINT_INFORMATION:\u003ccom.zola.bmi.BMIMain: void onCreate(android.os.Bundle)\u003e:7",
+    "COVA_CALL_INFORMATION:virtualinvoke $r4.\u003candroid.support.v4.app.FragmentTransaction: int commit()\u003e()",
+    "COVA_CONSTRAINT_INFORMATION:\u003ccom.zola.bmi.BMIMain: void onCreate(android.os.Bundle)\u003e:8",
+    "COVA_CALL_INFORMATION:$r2 \u003d virtualinvoke $r3.\u003candroid.view.LayoutInflater: android.view.View inflate(int,android.view.ViewGroup,boolean)\u003e(2131361821, $r1, 0)",
+    "COVA_CONSTRAINT_INFORMATION:\u003ccom.zola.bmi.BMIMain$PlaceholderFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)\u003e:0"
+  ],
+  "choosenOutput": "COVA_CONSTRAINT_INFORMATION:\u003ccom.zola.bmi.BMIMain: void onCreate(android.os.Bundle)\u003e:3",
+  "reachedDestination": true,
+  "path": [
+    {
+      "className": "com.zola.bmi.BMIMain",
+      "constraints": {},
+      "inputs": []
+    }
+  ]
+}

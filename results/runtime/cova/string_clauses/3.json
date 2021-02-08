@@ -1,0 +1,1040 @@
+{
+  "mainActivity": "cova.test.activity_app.MainActivity",
+  "apkPath": "app-debug.apk-aligned.apk",
+  "constraints": [
+    {
+      "output": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.DisplayMessageActivity: void \u003cinit\u003e()\u003e:0",
+      "calculatedValues": {},
+      "constraint": "true",
+      "javaLineNumber": -1,
+      "javaClassName": "cova.test.activity_app.DisplayMessageActivity",
+      "paths": []
+    },
+    {
+      "output": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.DisplayMessageActivity: void onCreate(android.os.Bundle)\u003e:0",
+      "calculatedValues": {},
+      "constraint": "true",
+      "javaLineNumber": -1,
+      "javaClassName": "cova.test.activity_app.DisplayMessageActivity",
+      "paths": []
+    },
+    {
+      "output": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.DisplayMessageActivity: void onCreate(android.os.Bundle)\u003e:1",
+      "calculatedValues": {},
+      "constraint": "true",
+      "javaLineNumber": 10,
+      "javaClassName": "cova.test.activity_app.DisplayMessageActivity",
+      "paths": []
+    },
+    {
+      "output": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.DisplayMessageActivity: void onCreate(android.os.Bundle)\u003e:2",
+      "calculatedValues": {},
+      "constraint": "true",
+      "javaLineNumber": 10,
+      "javaClassName": "cova.test.activity_app.DisplayMessageActivity",
+      "paths": []
+    },
+    {
+      "output": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.DisplayMessageActivity: void onCreate(android.os.Bundle)\u003e:3",
+      "calculatedValues": {},
+      "constraint": "true",
+      "javaLineNumber": 12,
+      "javaClassName": "cova.test.activity_app.DisplayMessageActivity",
+      "paths": []
+    },
+    {
+      "output": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void \u003cinit\u003e()\u003e:0",
+      "calculatedValues": {},
+      "constraint": "true",
+      "javaLineNumber": -1,
+      "javaClassName": "cova.test.activity_app.MainActivity",
+      "paths": [
+        [
+          {
+            "activity": "cova.test.activity_app.MainActivity",
+            "values": {},
+            "constraint": "true"
+          }
+        ]
+      ]
+    },
+    {
+      "output": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void onCreate(android.os.Bundle)\u003e:0",
+      "calculatedValues": {},
+      "constraint": "true",
+      "javaLineNumber": -1,
+      "javaClassName": "cova.test.activity_app.MainActivity",
+      "paths": [
+        [
+          {
+            "activity": "cova.test.activity_app.MainActivity",
+            "values": {},
+            "constraint": "true"
+          }
+        ]
+      ]
+    },
+    {
+      "output": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void onCreate(android.os.Bundle)\u003e:1",
+      "calculatedValues": {},
+      "constraint": "true",
+      "javaLineNumber": 17,
+      "javaClassName": "cova.test.activity_app.MainActivity",
+      "paths": [
+        [
+          {
+            "activity": "cova.test.activity_app.MainActivity",
+            "values": {},
+            "constraint": "true"
+          }
+        ]
+      ]
+    },
+    {
+      "output": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void onCreate(android.os.Bundle)\u003e:2",
+      "calculatedValues": {},
+      "constraint": "true",
+      "javaLineNumber": 18,
+      "javaClassName": "cova.test.activity_app.MainActivity",
+      "paths": [
+        [
+          {
+            "activity": "cova.test.activity_app.MainActivity",
+            "values": {},
+            "constraint": "true"
+          }
+        ]
+      ]
+    },
+    {
+      "output": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void onCreate(android.os.Bundle)\u003e:3",
+      "calculatedValues": {},
+      "constraint": "true",
+      "javaLineNumber": 20,
+      "javaClassName": "cova.test.activity_app.MainActivity",
+      "paths": [
+        [
+          {
+            "activity": "cova.test.activity_app.MainActivity",
+            "values": {},
+            "constraint": "true"
+          }
+        ]
+      ]
+    },
+    {
+      "output": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void onCreate(android.os.Bundle)\u003e:4",
+      "calculatedValues": {},
+      "constraint": "true",
+      "javaLineNumber": 20,
+      "javaClassName": "cova.test.activity_app.MainActivity",
+      "paths": [
+        [
+          {
+            "activity": "cova.test.activity_app.MainActivity",
+            "values": {},
+            "constraint": "true"
+          }
+        ]
+      ]
+    },
+    {
+      "output": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void onCreate(android.os.Bundle)\u003e:5",
+      "calculatedValues": {},
+      "constraint": "true",
+      "javaLineNumber": 21,
+      "javaClassName": "cova.test.activity_app.MainActivity",
+      "paths": [
+        [
+          {
+            "activity": "cova.test.activity_app.MainActivity",
+            "values": {},
+            "constraint": "true"
+          }
+        ]
+      ]
+    },
+    {
+      "output": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void onCreate(android.os.Bundle)\u003e:6",
+      "calculatedValues": {},
+      "constraint": "true",
+      "javaLineNumber": 23,
+      "javaClassName": "cova.test.activity_app.MainActivity",
+      "paths": [
+        [
+          {
+            "activity": "cova.test.activity_app.MainActivity",
+            "values": {},
+            "constraint": "true"
+          }
+        ]
+      ]
+    },
+    {
+      "output": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage(android.view.View)\u003e:0",
+      "calculatedValues": {
+        "activity_main:button:onClick": true
+      },
+      "constraint": "activity_main:button:onClick",
+      "javaLineNumber": -1,
+      "javaClassName": "cova.test.activity_app.MainActivity",
+      "paths": [
+        [
+          {
+            "activity": "cova.test.activity_app.MainActivity",
+            "values": {
+              "activity_main:button:onClick": true
+            },
+            "constraint": "activity_main:button:onClick"
+          }
+        ]
+      ]
+    },
+    {
+      "output": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage(android.view.View)\u003e:1",
+      "calculatedValues": {
+        "activity_main:button:onClick": true
+      },
+      "constraint": "activity_main:button:onClick",
+      "javaLineNumber": 54,
+      "javaClassName": "cova.test.activity_app.MainActivity",
+      "paths": [
+        [
+          {
+            "activity": "cova.test.activity_app.MainActivity",
+            "values": {
+              "activity_main:button:onClick": true
+            },
+            "constraint": "activity_main:button:onClick"
+          }
+        ]
+      ]
+    },
+    {
+      "output": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage(android.view.View)\u003e:2",
+      "calculatedValues": {
+        "activity_main:button:onClick": true
+      },
+      "constraint": "activity_main:button:onClick",
+      "javaLineNumber": 54,
+      "javaClassName": "cova.test.activity_app.MainActivity",
+      "paths": [
+        [
+          {
+            "activity": "cova.test.activity_app.MainActivity",
+            "values": {
+              "activity_main:button:onClick": true
+            },
+            "constraint": "activity_main:button:onClick"
+          }
+        ]
+      ]
+    },
+    {
+      "output": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage(android.view.View)\u003e:3",
+      "calculatedValues": {
+        "activity_main:button:onClick": true
+      },
+      "constraint": "activity_main:button:onClick",
+      "javaLineNumber": 55,
+      "javaClassName": "cova.test.activity_app.MainActivity",
+      "paths": [
+        [
+          {
+            "activity": "cova.test.activity_app.MainActivity",
+            "values": {
+              "activity_main:button:onClick": true
+            },
+            "constraint": "activity_main:button:onClick"
+          }
+        ]
+      ]
+    },
+    {
+      "output": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage(android.view.View)\u003e:4",
+      "calculatedValues": {
+        "activity_main:button:onClick": true
+      },
+      "constraint": "activity_main:button:onClick",
+      "javaLineNumber": 55,
+      "javaClassName": "cova.test.activity_app.MainActivity",
+      "paths": [
+        [
+          {
+            "activity": "cova.test.activity_app.MainActivity",
+            "values": {
+              "activity_main:button:onClick": true
+            },
+            "constraint": "activity_main:button:onClick"
+          }
+        ]
+      ]
+    },
+    {
+      "output": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage(android.view.View)\u003e:6",
+      "calculatedValues": {
+        "activity_main:button:onClick": true,
+        "activity_main:editText": "a"
+      },
+      "constraint": "(activity_main:button:onClick ∧ (activity_main:editTextstr.contains\"a\"))",
+      "javaLineNumber": 56,
+      "javaClassName": "cova.test.activity_app.MainActivity",
+      "paths": [
+        [
+          {
+            "activity": "cova.test.activity_app.MainActivity",
+            "values": {
+              "activity_main:button:onClick": true,
+              "activity_main:editText": "a"
+            },
+            "constraint": "(activity_main:button:onClick ∧ (activity_main:editTextstr.contains\"a\"))"
+          }
+        ]
+      ]
+    },
+    {
+      "output": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage(android.view.View)\u003e:8",
+      "calculatedValues": {
+        "activity_main:button:onClick": true,
+        "activity_main:editText": "a b"
+      },
+      "constraint": "(activity_main:button:onClick ∧ (activity_main:editTextstr.contains\"a\") ∧ (activity_main:editTextstr.contains\"b\"))",
+      "javaLineNumber": 56,
+      "javaClassName": "cova.test.activity_app.MainActivity",
+      "paths": [
+        [
+          {
+            "activity": "cova.test.activity_app.MainActivity",
+            "values": {
+              "activity_main:button:onClick": true,
+              "activity_main:editText": "a b"
+            },
+            "constraint": "(activity_main:button:onClick ∧ (activity_main:editTextstr.contains\"a\") ∧ (activity_main:editTextstr.contains\"b\"))"
+          }
+        ]
+      ]
+    },
+    {
+      "output": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage(android.view.View)\u003e:10",
+      "calculatedValues": {
+        "activity_main:button:onClick": true,
+        "activity_main:editText": "a c b"
+      },
+      "constraint": "(activity_main:button:onClick ∧ (activity_main:editTextstr.contains\"a\") ∧ (activity_main:editTextstr.contains\"b\") ∧ (activity_main:editTextstr.contains\"c\"))",
+      "javaLineNumber": 56,
+      "javaClassName": "cova.test.activity_app.MainActivity",
+      "paths": [
+        [
+          {
+            "activity": "cova.test.activity_app.MainActivity",
+            "values": {
+              "activity_main:button:onClick": true,
+              "activity_main:editText": "ab c"
+            },
+            "constraint": "(activity_main:button:onClick ∧ (activity_main:editTextstr.contains\"a\") ∧ (activity_main:editTextstr.contains\"b\") ∧ (activity_main:editTextstr.contains\"c\"))"
+          }
+        ]
+      ]
+    },
+    {
+      "output": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage(android.view.View)\u003e:11",
+      "calculatedValues": {
+        "activity_main:button:onClick": true,
+        "activity_main:editText": "a c b"
+      },
+      "constraint": "(activity_main:button:onClick ∧ (activity_main:editTextstr.contains\"a\") ∧ (activity_main:editTextstr.contains\"b\") ∧ (activity_main:editTextstr.contains\"c\"))",
+      "javaLineNumber": 57,
+      "javaClassName": "cova.test.activity_app.MainActivity",
+      "paths": [
+        [
+          {
+            "activity": "cova.test.activity_app.MainActivity",
+            "values": {
+              "activity_main:button:onClick": true,
+              "activity_main:editText": "c a b"
+            },
+            "constraint": "(activity_main:button:onClick ∧ (activity_main:editTextstr.contains\"a\") ∧ (activity_main:editTextstr.contains\"b\") ∧ (activity_main:editTextstr.contains\"c\"))"
+          }
+        ]
+      ]
+    }
+  ],
+  "instrumentTimeInMillis": 12788,
+  "preprocessTimeInMillis": 783,
+  "activityTimeInMillis": 52,
+  "covaTimeInMillis": 7628,
+  "possibleTargets": [
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void \u003cinit\u003e()\u003e:0",
+      "info": "COVA_CALL_INFORMATION:specialinvoke $r0.\u003candroid.support.v7.app.AppCompatActivity: void \u003cinit\u003e()\u003e()",
+      "javaLineNumber": 14,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void onCreate(android.os.Bundle)\u003e:0",
+      "info": "COVA_CALL_INFORMATION:specialinvoke $r0.\u003candroid.support.v7.app.AppCompatActivity: void onCreate(android.os.Bundle)\u003e($r1)",
+      "javaLineNumber": 17,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void onCreate(android.os.Bundle)\u003e:1",
+      "info": "COVA_CALL_INFORMATION:virtualinvoke $r0.\u003ccova.test.activity_app.MainActivity: void setContentView(int)\u003e(2131427356)",
+      "javaLineNumber": 18,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void onCreate(android.os.Bundle)\u003e:2",
+      "info": "COVA_CALL_INFORMATION:$r2 \u003d virtualinvoke $r0.\u003ccova.test.activity_app.MainActivity: android.view.View findViewById(int)\u003e(2131296401)",
+      "javaLineNumber": 20,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void onCreate(android.os.Bundle)\u003e:3",
+      "info": "COVA_CALL_INFORMATION:$r3 \u003d (android.widget.Spinner) $r2",
+      "javaLineNumber": 20,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void onCreate(android.os.Bundle)\u003e:4",
+      "info": "COVA_CALL_INFORMATION:$r4 \u003d staticinvoke \u003candroid.widget.ArrayAdapter: android.widget.ArrayAdapter createFromResource(android.content.Context,int,int)\u003e($r0, 2130903040, 17367048)",
+      "javaLineNumber": 21,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void onCreate(android.os.Bundle)\u003e:5",
+      "info": "COVA_CALL_INFORMATION:virtualinvoke $r4.\u003candroid.widget.ArrayAdapter: void setDropDownViewResource(int)\u003e(17367049)",
+      "javaLineNumber": 23,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void onCreate(android.os.Bundle)\u003e:6",
+      "info": "COVA_CALL_INFORMATION:virtualinvoke $r3.\u003candroid.widget.Spinner: void setAdapter(android.widget.SpinnerAdapter)\u003e($r4)",
+      "javaLineNumber": 24,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage(android.view.View)\u003e:0",
+      "info": "COVA_CALL_INFORMATION:$r1 \u003d virtualinvoke $r0.\u003ccova.test.activity_app.MainActivity: android.view.View findViewById(int)\u003e(2131296317)",
+      "javaLineNumber": 54,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage(android.view.View)\u003e:1",
+      "info": "COVA_CALL_INFORMATION:$r2 \u003d (android.widget.EditText) $r1",
+      "javaLineNumber": 54,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage(android.view.View)\u003e:2",
+      "info": "COVA_CALL_INFORMATION:$r3 \u003d virtualinvoke $r2.\u003candroid.widget.EditText: android.text.Editable getText()\u003e()",
+      "javaLineNumber": 55,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage(android.view.View)\u003e:3",
+      "info": "COVA_CALL_INFORMATION:$r4 \u003d virtualinvoke $r3.\u003cjava.lang.Object: java.lang.String toString()\u003e()",
+      "javaLineNumber": 55,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage(android.view.View)\u003e:4",
+      "info": "COVA_CALL_INFORMATION:$z0 \u003d virtualinvoke $r4.\u003cjava.lang.String: boolean contains(java.lang.CharSequence)\u003e(\"a\")",
+      "javaLineNumber": 56,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage(android.view.View)\u003e:6",
+      "info": "COVA_CALL_INFORMATION:$z0 \u003d virtualinvoke $r4.\u003cjava.lang.String: boolean contains(java.lang.CharSequence)\u003e(\"b\")",
+      "javaLineNumber": 56,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage(android.view.View)\u003e:8",
+      "info": "COVA_CALL_INFORMATION:$z0 \u003d virtualinvoke $r4.\u003cjava.lang.String: boolean contains(java.lang.CharSequence)\u003e(\"c\")",
+      "javaLineNumber": 56,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage(android.view.View)\u003e:10",
+      "info": "COVA_CALL_INFORMATION:$r5 \u003d \u003cjava.lang.System: java.io.PrintStream out\u003e",
+      "javaLineNumber": 57,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage(android.view.View)\u003e:11",
+      "info": "COVA_CALL_INFORMATION:virtualinvoke $r5.\u003cjava.io.PrintStream: void println(java.lang.String)\u003e(\"action\")",
+      "javaLineNumber": 57,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage2(android.view.View)\u003e:0",
+      "info": "COVA_CALL_INFORMATION:$i0 \u003d \u003candroid.os.Build$VERSION: int SDK_INT\u003e",
+      "javaLineNumber": 38,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage2(android.view.View)\u003e:1",
+      "info": "COVA_CALL_INFORMATION:$r2 \u003d new java.util.Random",
+      "javaLineNumber": 40,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage2(android.view.View)\u003e:2",
+      "info": "COVA_CALL_INFORMATION:specialinvoke $r2.\u003cjava.util.Random: void \u003cinit\u003e()\u003e()",
+      "javaLineNumber": 40,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage2(android.view.View)\u003e:3",
+      "info": "COVA_CALL_INFORMATION:$i1 \u003d virtualinvoke $r2.\u003cjava.util.Random: int nextInt()\u003e()",
+      "javaLineNumber": 40,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage2(android.view.View)\u003e:6",
+      "info": "COVA_CALL_INFORMATION:$r3 \u003d \u003cjava.lang.System: java.io.PrintStream out\u003e",
+      "javaLineNumber": 44,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage2(android.view.View)\u003e:7",
+      "info": "COVA_CALL_INFORMATION:virtualinvoke $r3.\u003cjava.io.PrintStream: void println(java.lang.String)\u003e(\"error\")",
+      "javaLineNumber": 44,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage2(android.view.View)\u003e:8",
+      "info": "COVA_CALL_INFORMATION:$r3 \u003d \u003cjava.lang.System: java.io.PrintStream err\u003e",
+      "javaLineNumber": 42,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.BuildConfig: void \u003cclinit\u003e()\u003e:0",
+      "info": "COVA_CALL_INFORMATION:$z0 \u003d staticinvoke \u003cjava.lang.Boolean: boolean parseBoolean(java.lang.String)\u003e(\"true\")",
+      "javaLineNumber": 7,
+      "javaClassName": "cova.test.activity_app.BuildConfig"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage2(android.view.View)\u003e:9",
+      "info": "COVA_CALL_INFORMATION:virtualinvoke $r3.\u003cjava.io.PrintStream: void println(java.lang.String)\u003e(\"EDIT_TEXT_LENGTH_SMALLER\")",
+      "javaLineNumber": 42,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage2(android.view.View)\u003e:12",
+      "info": "COVA_CALL_INFORMATION:$r3 \u003d \u003cjava.lang.System: java.io.PrintStream out\u003e",
+      "javaLineNumber": 48,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage2(android.view.View)\u003e:13",
+      "info": "COVA_CALL_INFORMATION:virtualinvoke $r3.\u003cjava.io.PrintStream: void println(java.lang.String)\u003e(\"EDIT_TEXT_LENGTH_SMALLER\")",
+      "javaLineNumber": 48,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:0",
+      "info": "COVA_CALL_INFORMATION:$r1 \u003d virtualinvoke $r0.\u003ccova.test.activity_app.MainActivity: android.view.View findViewById(int)\u003e(2131296401)",
+      "javaLineNumber": 62,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:1",
+      "info": "COVA_CALL_INFORMATION:$r2 \u003d (android.widget.Spinner) $r1",
+      "javaLineNumber": 62,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:2",
+      "info": "COVA_CALL_INFORMATION:$r1 \u003d virtualinvoke $r0.\u003ccova.test.activity_app.MainActivity: android.view.View findViewById(int)\u003e(2131296317)",
+      "javaLineNumber": 63,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:3",
+      "info": "COVA_CALL_INFORMATION:$r3 \u003d (android.widget.EditText) $r1",
+      "javaLineNumber": 63,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:4",
+      "info": "COVA_CALL_INFORMATION:$r4 \u003d virtualinvoke $r3.\u003candroid.widget.EditText: android.text.Editable getText()\u003e()",
+      "javaLineNumber": 66,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:5",
+      "info": "COVA_CALL_INFORMATION:$r5 \u003d virtualinvoke $r4.\u003cjava.lang.Object: java.lang.String toString()\u003e()",
+      "javaLineNumber": 66,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:6",
+      "info": "COVA_CALL_INFORMATION:$i0 \u003d staticinvoke \u003cjava.lang.Integer: int parseInt(java.lang.String)\u003e($r5)",
+      "javaLineNumber": 66,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.BuildConfig: void \u003cclinit\u003e()\u003e:1",
+      "info": "COVA_CALL_INFORMATION:\u003ccova.test.activity_app.BuildConfig: boolean DEBUG\u003e \u003d $z0",
+      "javaLineNumber": 7,
+      "javaClassName": "cova.test.activity_app.BuildConfig"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:8",
+      "info": "COVA_CALL_INFORMATION:$r6 \u003d \u003cjava.lang.System: java.io.PrintStream out\u003e",
+      "javaLineNumber": 67,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.BuildConfig: void \u003cinit\u003e()\u003e:0",
+      "info": "COVA_CALL_INFORMATION:specialinvoke $r0.\u003cjava.lang.Object: void \u003cinit\u003e()\u003e()",
+      "javaLineNumber": 6,
+      "javaClassName": "cova.test.activity_app.BuildConfig"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:9",
+      "info": "COVA_CALL_INFORMATION:virtualinvoke $r6.\u003cjava.io.PrintStream: void println(java.lang.String)\u003e(\"EDIT_TEXT_INT_PARSE\")",
+      "javaLineNumber": 67,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:10",
+      "info": "COVA_CALL_INFORMATION:$r4 \u003d virtualinvoke $r3.\u003candroid.widget.EditText: android.text.Editable getText()\u003e()",
+      "javaLineNumber": 70,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:11",
+      "info": "COVA_CALL_INFORMATION:$r5 \u003d virtualinvoke $r4.\u003cjava.lang.Object: java.lang.String toString()\u003e()",
+      "javaLineNumber": 70,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:12",
+      "info": "COVA_CALL_INFORMATION:$z0 \u003d virtualinvoke $r5.\u003cjava.lang.String: boolean equals(java.lang.Object)\u003e(\"equals\")",
+      "javaLineNumber": 70,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:14",
+      "info": "COVA_CALL_INFORMATION:$r6 \u003d \u003cjava.lang.System: java.io.PrintStream out\u003e",
+      "javaLineNumber": 71,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:15",
+      "info": "COVA_CALL_INFORMATION:virtualinvoke $r6.\u003cjava.io.PrintStream: void println(java.lang.String)\u003e(\"EDIT_TEXT_EQUALS\")",
+      "javaLineNumber": 71,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:16",
+      "info": "COVA_CALL_INFORMATION:$r4 \u003d virtualinvoke $r3.\u003candroid.widget.EditText: android.text.Editable getText()\u003e()",
+      "javaLineNumber": 74,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:17",
+      "info": "COVA_CALL_INFORMATION:$r5 \u003d virtualinvoke $r4.\u003cjava.lang.Object: java.lang.String toString()\u003e()",
+      "javaLineNumber": 74,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:18",
+      "info": "COVA_CALL_INFORMATION:$i0 \u003d virtualinvoke $r5.\u003cjava.lang.String: int length()\u003e()",
+      "javaLineNumber": 74,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:20",
+      "info": "COVA_CALL_INFORMATION:$r6 \u003d \u003cjava.lang.System: java.io.PrintStream out\u003e",
+      "javaLineNumber": 75,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:21",
+      "info": "COVA_CALL_INFORMATION:virtualinvoke $r6.\u003cjava.io.PrintStream: void println(java.lang.String)\u003e(\"EDIT_TEXT_LENGTH_SMALLER\")",
+      "javaLineNumber": 75,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:22",
+      "info": "COVA_CALL_INFORMATION:$r4 \u003d virtualinvoke $r3.\u003candroid.widget.EditText: android.text.Editable getText()\u003e()",
+      "javaLineNumber": 78,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:23",
+      "info": "COVA_CALL_INFORMATION:$r5 \u003d virtualinvoke $r4.\u003cjava.lang.Object: java.lang.String toString()\u003e()",
+      "javaLineNumber": 78,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:24",
+      "info": "COVA_CALL_INFORMATION:$i0 \u003d virtualinvoke $r5.\u003cjava.lang.String: int length()\u003e()",
+      "javaLineNumber": 78,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:26",
+      "info": "COVA_CALL_INFORMATION:$r6 \u003d \u003cjava.lang.System: java.io.PrintStream out\u003e",
+      "javaLineNumber": 79,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:27",
+      "info": "COVA_CALL_INFORMATION:virtualinvoke $r6.\u003cjava.io.PrintStream: void println(java.lang.String)\u003e(\"EDIT_TEXT_LENGTH_GREATER\")",
+      "javaLineNumber": 79,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:28",
+      "info": "COVA_CALL_INFORMATION:$r4 \u003d virtualinvoke $r3.\u003candroid.widget.EditText: android.text.Editable getText()\u003e()",
+      "javaLineNumber": 81,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:29",
+      "info": "COVA_CALL_INFORMATION:$r5 \u003d virtualinvoke $r4.\u003cjava.lang.Object: java.lang.String toString()\u003e()",
+      "javaLineNumber": 81,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:30",
+      "info": "COVA_CALL_INFORMATION:$i0 \u003d virtualinvoke $r5.\u003cjava.lang.String: int length()\u003e()",
+      "javaLineNumber": 81,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:32",
+      "info": "COVA_CALL_INFORMATION:$r6 \u003d \u003cjava.lang.System: java.io.PrintStream out\u003e",
+      "javaLineNumber": 82,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:33",
+      "info": "COVA_CALL_INFORMATION:virtualinvoke $r6.\u003cjava.io.PrintStream: void println(java.lang.String)\u003e(\"EDIT_TEXT_LENGTH_EQUALS\")",
+      "javaLineNumber": 82,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:34",
+      "info": "COVA_CALL_INFORMATION:$r4 \u003d virtualinvoke $r3.\u003candroid.widget.EditText: android.text.Editable getText()\u003e()",
+      "javaLineNumber": 88,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:35",
+      "info": "COVA_CALL_INFORMATION:$r5 \u003d virtualinvoke $r4.\u003cjava.lang.Object: java.lang.String toString()\u003e()",
+      "javaLineNumber": 88,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:36",
+      "info": "COVA_CALL_INFORMATION:$z0 \u003d virtualinvoke $r5.\u003cjava.lang.String: boolean startsWith(java.lang.String)\u003e(\"startsWith\")",
+      "javaLineNumber": 88,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:38",
+      "info": "COVA_CALL_INFORMATION:$r6 \u003d \u003cjava.lang.System: java.io.PrintStream out\u003e",
+      "javaLineNumber": 89,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:39",
+      "info": "COVA_CALL_INFORMATION:virtualinvoke $r6.\u003cjava.io.PrintStream: void println(java.lang.String)\u003e(\"EDIT_TEXT_STARTS\")",
+      "javaLineNumber": 89,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:40",
+      "info": "COVA_CALL_INFORMATION:$r4 \u003d virtualinvoke $r3.\u003candroid.widget.EditText: android.text.Editable getText()\u003e()",
+      "javaLineNumber": 92,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:41",
+      "info": "COVA_CALL_INFORMATION:$r5 \u003d virtualinvoke $r4.\u003cjava.lang.Object: java.lang.String toString()\u003e()",
+      "javaLineNumber": 92,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:42",
+      "info": "COVA_CALL_INFORMATION:$z0 \u003d virtualinvoke $r5.\u003cjava.lang.String: boolean endsWith(java.lang.String)\u003e(\"endsWith\")",
+      "javaLineNumber": 92,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:44",
+      "info": "COVA_CALL_INFORMATION:$r6 \u003d \u003cjava.lang.System: java.io.PrintStream out\u003e",
+      "javaLineNumber": 93,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:45",
+      "info": "COVA_CALL_INFORMATION:virtualinvoke $r6.\u003cjava.io.PrintStream: void println(java.lang.String)\u003e(\"EDIT_TEXT_ENDS\")",
+      "javaLineNumber": 93,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:46",
+      "info": "COVA_CALL_INFORMATION:$r7 \u003d virtualinvoke $r2.\u003candroid.widget.Spinner: java.lang.Object getSelectedItem()\u003e()",
+      "javaLineNumber": 96,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:47",
+      "info": "COVA_CALL_INFORMATION:$r5 \u003d virtualinvoke $r7.\u003cjava.lang.Object: java.lang.String toString()\u003e()",
+      "javaLineNumber": 96,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:48",
+      "info": "COVA_CALL_INFORMATION:$z0 \u003d virtualinvoke $r5.\u003cjava.lang.String: boolean equals(java.lang.Object)\u003e(\"Red\")",
+      "javaLineNumber": 96,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:50",
+      "info": "COVA_CALL_INFORMATION:$r6 \u003d \u003cjava.lang.System: java.io.PrintStream out\u003e",
+      "javaLineNumber": 97,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:51",
+      "info": "COVA_CALL_INFORMATION:virtualinvoke $r6.\u003cjava.io.PrintStream: void println(java.lang.String)\u003e(\"SPINNER_RED\")",
+      "javaLineNumber": 97,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:52",
+      "info": "COVA_CALL_INFORMATION:$r4 \u003d virtualinvoke $r3.\u003candroid.widget.EditText: android.text.Editable getText()\u003e()",
+      "javaLineNumber": 104,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:53",
+      "info": "COVA_CALL_INFORMATION:$r5 \u003d virtualinvoke $r4.\u003cjava.lang.Object: java.lang.String toString()\u003e()",
+      "javaLineNumber": 104,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:54",
+      "info": "COVA_CALL_INFORMATION:$z0 \u003d virtualinvoke $r5.\u003cjava.lang.String: boolean contains(java.lang.CharSequence)\u003e(\"@\")",
+      "javaLineNumber": 105,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:56",
+      "info": "COVA_CALL_INFORMATION:$i0 \u003d virtualinvoke $r5.\u003cjava.lang.String: int length()\u003e()",
+      "javaLineNumber": 105,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:58",
+      "info": "COVA_CALL_INFORMATION:$z0 \u003d virtualinvoke $r5.\u003cjava.lang.String: boolean endsWith(java.lang.String)\u003e(\".com\")",
+      "javaLineNumber": 105,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:60",
+      "info": "COVA_CALL_INFORMATION:$r6 \u003d \u003cjava.lang.System: java.io.PrintStream out\u003e",
+      "javaLineNumber": 106,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:61",
+      "info": "COVA_CALL_INFORMATION:virtualinvoke $r6.\u003cjava.io.PrintStream: void println(java.lang.String)\u003e(\"EDIT_TEXT_COMBINED\")",
+      "javaLineNumber": 106,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:62",
+      "info": "COVA_CALL_INFORMATION:$r8 \u003d new android.content.Intent",
+      "javaLineNumber": 107,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:63",
+      "info": "COVA_CALL_INFORMATION:specialinvoke $r8.\u003candroid.content.Intent: void \u003cinit\u003e(android.content.Context,java.lang.Class)\u003e($r0, class \"Lcova/test/activity_app/DisplayMessageActivity;\")",
+      "javaLineNumber": 107,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:64",
+      "info": "COVA_CALL_INFORMATION:virtualinvoke $r0.\u003ccova.test.activity_app.MainActivity: void startActivity(android.content.Intent)\u003e($r8)",
+      "javaLineNumber": 108,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:65",
+      "info": "COVA_CALL_INFORMATION:$r4 \u003d virtualinvoke $r3.\u003candroid.widget.EditText: android.text.Editable getText()\u003e()",
+      "javaLineNumber": 112,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:66",
+      "info": "COVA_CALL_INFORMATION:$r5 \u003d virtualinvoke $r4.\u003cjava.lang.Object: java.lang.String toString()\u003e()",
+      "javaLineNumber": 112,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:67",
+      "info": "COVA_CALL_INFORMATION:$z0 \u003d virtualinvoke $r5.\u003cjava.lang.String: boolean equals(java.lang.Object)\u003e(\"\")",
+      "javaLineNumber": 112,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:69",
+      "info": "COVA_CALL_INFORMATION:$r4 \u003d virtualinvoke $r3.\u003candroid.widget.EditText: android.text.Editable getText()\u003e()",
+      "javaLineNumber": 112,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:70",
+      "info": "COVA_CALL_INFORMATION:$r5 \u003d virtualinvoke $r4.\u003cjava.lang.Object: java.lang.String toString()\u003e()",
+      "javaLineNumber": 112,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:71",
+      "info": "COVA_CALL_INFORMATION:$i0 \u003d staticinvoke \u003cjava.lang.Integer: int parseInt(java.lang.String)\u003e($r5)",
+      "javaLineNumber": 112,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:73",
+      "info": "COVA_CALL_INFORMATION:$r6 \u003d \u003cjava.lang.System: java.io.PrintStream out\u003e",
+      "javaLineNumber": 113,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:74",
+      "info": "COVA_CALL_INFORMATION:virtualinvoke $r6.\u003cjava.io.PrintStream: void println(java.lang.String)\u003e(\"EDIT_TEXT_EQUALS_OR_INT_PARSE\")",
+      "javaLineNumber": 113,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:75",
+      "info": "COVA_CALL_INFORMATION:$r9 \u003d new java.util.Random",
+      "javaLineNumber": 118,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:76",
+      "info": "COVA_CALL_INFORMATION:specialinvoke $r9.\u003cjava.util.Random: void \u003cinit\u003e()\u003e()",
+      "javaLineNumber": 118,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:77",
+      "info": "COVA_CALL_INFORMATION:$i0 \u003d virtualinvoke $r9.\u003cjava.util.Random: int nextInt()\u003e()",
+      "javaLineNumber": 118,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:78",
+      "info": "COVA_CALL_INFORMATION:$r4 \u003d virtualinvoke $r3.\u003candroid.widget.EditText: android.text.Editable getText()\u003e()",
+      "javaLineNumber": 119,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:79",
+      "info": "COVA_CALL_INFORMATION:$r5 \u003d virtualinvoke $r4.\u003cjava.lang.Object: java.lang.String toString()\u003e()",
+      "javaLineNumber": 119,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:80",
+      "info": "COVA_CALL_INFORMATION:$i1 \u003d virtualinvoke $r5.\u003cjava.lang.String: int length()\u003e()",
+      "javaLineNumber": 119,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:83",
+      "info": "COVA_CALL_INFORMATION:$r6 \u003d \u003cjava.lang.System: java.io.PrintStream out\u003e",
+      "javaLineNumber": 120,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void sendMessage3(android.view.View)\u003e:84",
+      "info": "COVA_CALL_INFORMATION:virtualinvoke $r6.\u003cjava.io.PrintStream: void println(java.lang.String)\u003e(\"EDIT_TEXT_LENGTH_GREATER_OR_RANDOM\")",
+      "javaLineNumber": 120,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void test(android.view.View)\u003e:0",
+      "info": "COVA_CALL_INFORMATION:$r1 \u003d virtualinvoke $r0.\u003ccova.test.activity_app.MainActivity: android.view.View findViewById(int)\u003e(2131296401)",
+      "javaLineNumber": 30,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void test(android.view.View)\u003e:1",
+      "info": "COVA_CALL_INFORMATION:$r2 \u003d (android.widget.Spinner) $r1",
+      "javaLineNumber": 30,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void test(android.view.View)\u003e:2",
+      "info": "COVA_CALL_INFORMATION:$r3 \u003d virtualinvoke $r2.\u003candroid.widget.Spinner: java.lang.Object getSelectedItem()\u003e()",
+      "javaLineNumber": 32,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void test(android.view.View)\u003e:3",
+      "info": "COVA_CALL_INFORMATION:$r4 \u003d virtualinvoke $r3.\u003cjava.lang.Object: java.lang.String toString()\u003e()",
+      "javaLineNumber": 32,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void test(android.view.View)\u003e:4",
+      "info": "COVA_CALL_INFORMATION:$z0 \u003d virtualinvoke $r4.\u003cjava.lang.String: boolean equals(java.lang.Object)\u003e(\"Red\")",
+      "javaLineNumber": 32,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void test(android.view.View)\u003e:6",
+      "info": "COVA_CALL_INFORMATION:$r5 \u003d \u003cjava.lang.System: java.io.PrintStream out\u003e",
+      "javaLineNumber": 33,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.MainActivity: void test(android.view.View)\u003e:7",
+      "info": "COVA_CALL_INFORMATION:virtualinvoke $r5.\u003cjava.io.PrintStream: void println(java.lang.String)\u003e(\"TEST\")",
+      "javaLineNumber": 33,
+      "javaClassName": "cova.test.activity_app.MainActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.DisplayMessageActivity: void \u003cinit\u003e()\u003e:0",
+      "info": "COVA_CALL_INFORMATION:specialinvoke $r0.\u003candroid.support.v7.app.AppCompatActivity: void \u003cinit\u003e()\u003e()",
+      "javaLineNumber": 6,
+      "javaClassName": "cova.test.activity_app.DisplayMessageActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.DisplayMessageActivity: void onCreate(android.os.Bundle)\u003e:0",
+      "info": "COVA_CALL_INFORMATION:$r2 \u003d \u003cjava.lang.System: java.io.PrintStream out\u003e",
+      "javaLineNumber": 10,
+      "javaClassName": "cova.test.activity_app.DisplayMessageActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.DisplayMessageActivity: void onCreate(android.os.Bundle)\u003e:1",
+      "info": "COVA_CALL_INFORMATION:virtualinvoke $r2.\u003cjava.io.PrintStream: void println(java.lang.String)\u003e(\"ACTIVITY_CHANGE\")",
+      "javaLineNumber": 10,
+      "javaClassName": "cova.test.activity_app.DisplayMessageActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.DisplayMessageActivity: void onCreate(android.os.Bundle)\u003e:2",
+      "info": "COVA_CALL_INFORMATION:specialinvoke $r0.\u003candroid.support.v7.app.AppCompatActivity: void onCreate(android.os.Bundle)\u003e($r1)",
+      "javaLineNumber": 12,
+      "javaClassName": "cova.test.activity_app.DisplayMessageActivity"
+    },
+    {
+      "target": "COVA_CONSTRAINT_INFORMATION:\u003ccova.test.activity_app.DisplayMessageActivity: void onCreate(android.os.Bundle)\u003e:3",
+      "info": "COVA_CALL_INFORMATION:virtualinvoke $r0.\u003ccova.test.activity_app.DisplayMessageActivity: void setContentView(int)\u003e(2131427355)",
+      "javaLineNumber": 13,
+      "javaClassName": "cova.test.activity_app.DisplayMessageActivity"
+    }
+  ]
+}

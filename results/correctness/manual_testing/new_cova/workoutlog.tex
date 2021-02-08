@@ -1,0 +1,27 @@
+\begin{table}[!ht]
+
+\begin{tabular}{lHccl}
+Target & Path & Has Path & Correct & Reason\\
+\Verb|<AddExerciseActivity: Exercise getLastExercise()>:9| & \Verb|ExerciseListActivity{'item_exercise_header:list_footer:onClick': True}|, \Verb|AddExerciseActivity{'activity_add_exercise:name:onItemClick': True}| & $\checkmark$ & $\times$ & Autocomplete data missing\\
+\Verb|<AddExerciseActivity: java.util.List getTodayExercises()>:25| & \Verb|ExerciseListActivity{'item_exercise_header:list_footer:onClick': True}|, \Verb|AddExerciseActivity{'activity_add_exercise:name:onItemClick': True}| & $\checkmark$ & $\times$ & Autocomplete data missing\\
+\Verb|<AddExerciseActivity: java.util.List getTodayExercises()>:34| & \Verb|ExerciseListActivity{'item_exercise_header:list_footer:onClick': True}|, \Verb|AddExerciseActivity{'activity_add_exercise:name:onItemClick': True}| & $\checkmark$ & $\times$ & Autocomplete data missing\\
+\Verb|<AddExerciseActivity: void addExercise()>:11| & \Verb|ExerciseListActivity{'item_exercise_header:list_footer:onClick': True}|, \Verb|AddExerciseActivity{'activity_add_exercise:button_add:onClick': True}| & $\checkmark$ & $\checkmark$ & \\
+\Verb|<AddExerciseActivity: void addExercise()>:22| & \Verb|ExerciseListActivity{'item_exercise_header:list_footer:onClick': True}|, \Verb|AddExerciseActivity{'activity_add_exercise:button_add:onClick': True, 'activity_add_exercise:reps': ''}| & $\checkmark$ & $\checkmark$ & \\
+\Verb|<AddExerciseActivity: void addExercise()>:27| & \Verb|ExerciseListActivity{'item_exercise_header:list_footer:onClick': True}|, \Verb|AddExerciseActivity{'activity_add_exercise:weight': ' ', 'activity_add_exercise:button_add:onClick': True}| & $\checkmark$ &  $\checkmark$& \\
+\Verb|<AddExerciseActivity: void saveExercise()>:30| & \Verb|ExerciseListActivity{'item_exercise_header:list_footer:onClick': True}|, \Verb|AddExerciseActivity{'activity_add_exercise:button_add:onClick': True}| & $\checkmark$ & $\times$ & Values set in if statements not evaluated\\
+\Verb|<ExerciseListActivity: void onPause()>:0| & \Verb|ExerciseListActivity{}| & $\checkmark$ & $\times$ & onPause not evaluated correctly\\
+\Verb|<ExerciseAdapter: android.view.View getGroupView()>:7| & No Constraint & $\times$ & $\times$ & Android intern calls not modeled in Cova\\
+\Verb|<ExerciseAdapter: void <init>()>:55| & \Verb|ExerciseAdapter{}| & $\checkmark$ & $\checkmark$ & \\
+\Verb|<Exercise: ExerciseType getExerciseType()>:10| & No Constraint & $\times$& $\times$ & Android intern calls not modeled in Cova\\
+\Verb|<ExerciseDao: Exercise readEntity()>:16| & No Constraint & $\times$ & $\times$ & Library intern calls not modeled in Cova\\
+\Verb|<ExerciseDao: Exercise readEntity()>:19| & No Constraint & $\times$ & $\times$ & Library intern calls not modeled in Cova \\
+\Verb|<ExerciseDao: java.lang.Object readEntity()>:0| & No Constraint & $\times$ & $\times$ & Library intern calls not modeled in Cova\\
+\Verb|<ExerciseDao: java.util.List loadDeepAllAndCloseCursor()>:2| & No Constraint & $\times$ & $\times$ & Library intern calls not modeled in Cova\\
+\Verb|<ExerciseDao: void bindValues()>:9| & No Constraint & $\times$ & $\times$ & Library intern calls not modeled in Cova\\
+\Verb|<ExerciseDao: void bindValues()>:1| & No Constraint & $\times$ & $\times$ & Library intern calls not modeled in Cova\\
+\Verb|<ExerciseDao: void dropTable()>:7| & No Constraint & $\times$ & $\times$ & Library intern calls not modeled in Cova\\
+\Verb|<ExerciseDao: void dropTable()>:8| & No Constraint & $\times$ & $\times$ & Library intern calls not modeled in Cova\\
+\Verb|<ExerciseDao: void readEntity()>:8| & No Constraint & $\times$ & $\times$ & Library intern calls not modeled in Cova\\
+\end{tabular}
+\caption{Extended COVA: WorkoutLog}
+\end{table}

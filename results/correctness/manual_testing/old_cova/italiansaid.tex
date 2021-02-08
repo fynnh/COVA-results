@@ -1,0 +1,26 @@
+\begin{table}[!ht]
+\begin{tabular}{lHccl}
+Target & Path & Has Path & Correct & Reason\\
+\Verb|<DatabaseHandler: boolean addFav()>:3| & \Verb|DatabaseHandler{onClick_0: True}| & $\checkmark$ & $\times$ & onClick source not modeled\\
+\Verb|<DatabaseHandler: boolean insertData()>:8| & No Constraint & $\times$ & $\times$ & library method not modeled\\
+\Verb|<FavActivity: void closeFav()>:0| & No Constraint & $\times$ & $\times$ & Unknown: callback not found\\
+\Verb|<FavActivity: void showFav()>:3| & No Constraint & $\times$ & $\times$ & onClick source not modeled\\
+\Verb|<FavActivity: void showFav()>:4| & No Constraint & $\times$ & $\times$ & onClick source not modeled\\
+\Verb|<MainActivity$1: void <init>()>:0| & \Verb|MainActivity$1{}| & $\checkmark$ & $\checkmark$ & \\
+\Verb|<MainActivity$1: void onCheckedChanged()>:3| & \Verb|MainActivity$1{'onCheckedChanged_0': True}| & $\checkmark$ & $\times$ & different sources not modeled\\
+\Verb|<MainActivity: void access$100()>:0| & \Verb|MainActivity{'onCheckedChanged_0': True}| & $\checkmark$ & $\times$ &  different sources not modeled\\
+\Verb|<MainActivity: void btnAddFav()>:5| & \Verb|MainActivity{onClick_0: True}| & $\checkmark$ & $\times$ & onClick source not modeled\\
+\Verb|<MainActivity: void btnAddFav()>:9| & \Verb|MainActivity{onClick_0: True}| & $\checkmark$ & $\times$ & onClick source not modeled\\
+\Verb|<MainActivity: void changeSays()>:7| & \Verb|MainActivity{}| & $\checkmark$ & $\checkmark$ & \\
+\Verb|<MainActivity: void onCreate()>:6| & \Verb|MainActivity{}| & $\checkmark$ & $\checkmark$ & \\
+\Verb|<MainActivity: void onCreate()>:15| & \Verb|MainActivity{}| & $\checkmark$ & $\checkmark$ & \\
+\Verb|<MainActivity: void onCreate()>:22| & \Verb|MainActivity{}| & $\checkmark$ & $\checkmark$ & \\
+\Verb|<MainActivity: void onCreate()>:26| & \Verb|MainActivity{}| & $\checkmark$ & $\checkmark$ & \\
+\Verb|<MainActivity: void onCreate()>:58| & \Verb|MainActivity{}| & $\checkmark$ & $\checkmark$ & \\
+\Verb|<MainActivity: void showInfo()>:1| & \Verb|MainActivity{'onCheckedChanged_0': True}| & $\checkmark$ & $\times$ & different sources not modeled\\
+\Verb|<OnSwipeTouchListener: void <init>()>:1| & \Verb|OnSwipeTouchListener{}| & $\checkmark$ & $\checkmark$ & \\
+\Verb|<OnSwipeTouchListener: void <init>()>:3| & \Verb|OnSwipeTouchListener{}| & $\checkmark$ & $\checkmark$ & \\
+\Verb|<StarView: void <init>()>:0| & No Constraint & $\times$ & $\times$ & custom buttons not modeled\\
+\end{tabular}
+\caption{Existing COVA: ItalianSaid}
+\end{table}

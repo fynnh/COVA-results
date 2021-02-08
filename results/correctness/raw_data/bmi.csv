@@ -1,0 +1,21 @@
+Target; Path; Correct; Reason
+<com.zola.bmi.BMIMain: double calculateBMI(double,double)>:2;com.zola.bmi.BMIMain{'fragment_bmimain:calcBMI:onClick': True}; ;
+<com.zola.bmi.BMIMain: java.lang.String interpretBMI(double)>:4;com.zola.bmi.BMIMain{'fragment_bmimain:calcBMI:onClick': True}; ;
+<com.zola.bmi.BMIMain: void <init>()>:0;com.zola.bmi.BMIMain{}; ;
+<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:7;com.zola.bmi.BMIMain{'fragment_bmimain:calcBMI:onClick': True}; ;
+<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:10;com.zola.bmi.BMIMain{'fragment_bmimain:calcBMI:onClick': True}; ;
+<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:11;com.zola.bmi.BMIMain{'fragment_bmimain:calcBMI:onClick': True}; ;
+<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:13;com.zola.bmi.BMIMain{'fragment_bmimain:calcBMI:onClick': True}; ;
+<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:16;com.zola.bmi.BMIMain{'fragment_bmimain:calcBMI:onClick': True}; ;
+<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:25;com.zola.bmi.BMIMain{'fragment_bmimain:calcBMI:onClick': True}; ;
+<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:32;com.zola.bmi.BMIMain{'fragment_bmimain:calcBMI:onClick': True}; ;
+<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:42;com.zola.bmi.BMIMain{'fragment_bmimain:calcBMI:onClick': True, 'activity_bmimain:heightSpinner': 'Inches', 'activity_bmimain:weightSpinner': 'Kilograms'}; ;
+<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:48;com.zola.bmi.BMIMain{'fragment_bmimain:calcBMI:onClick': True, 'activity_bmimain:heightSpinner': 'Centimetres', 'activity_bmimain:weightSpinner': 'Pounds'}; ;
+<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:50;com.zola.bmi.BMIMain{'fragment_bmimain:calcBMI:onClick': True, 'activity_bmimain:heightSpinner': ' ', 'activity_bmimain:weightSpinner': 'Kilograms'}; ;
+<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:51;com.zola.bmi.BMIMain{'fragment_bmimain:calcBMI:onClick': True, 'activity_bmimain:heightSpinner': '', 'activity_bmimain:weightSpinner': 'Kilograms'}; ;
+<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:52;com.zola.bmi.BMIMain{'fragment_bmimain:calcBMI:onClick': True}; ;
+<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:54;com.zola.bmi.BMIMain{'fragment_bmimain:calcBMI:onClick': True}; ;
+<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:56;com.zola.bmi.BMIMain{'fragment_bmimain:calcBMI:onClick': True}; ;
+<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:57;com.zola.bmi.BMIMain{'fragment_bmimain:calcBMI:onClick': True}; ;
+<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:63;com.zola.bmi.BMIMain{'fragment_bmimain:calcBMI:onClick': True}; ;
+<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:66;com.zola.bmi.BMIMain{'fragment_bmimain:calcBMI:onClick': True}; ;

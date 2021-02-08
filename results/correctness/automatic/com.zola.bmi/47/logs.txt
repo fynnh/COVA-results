@@ -1,0 +1,82 @@
+COVA_CALL_INFORMATION:specialinvoke $r0.<android.support.v7.app.AppCompatActivity: void <init>()>()
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void <init>()>:0
+COVA_CALL_INFORMATION:specialinvoke $r0.<android.support.v7.app.AppCompatActivity: void onCreate(android.os.Bundle)>($r2)
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void onCreate(android.os.Bundle)>:0
+COVA_CALL_INFORMATION:virtualinvoke $r0.<com.zola.bmi.BMIMain: void setContentView(int)>(2131361820)
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void onCreate(android.os.Bundle)>:1
+COVA_CALL_INFORMATION:if $r2 != null goto return
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void onCreate(android.os.Bundle)>:2
+COVA_CALL_INFORMATION:$r3 = virtualinvoke $r0.<com.zola.bmi.BMIMain: android.support.v4.app.FragmentManager getSupportFragmentManager()>()
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void onCreate(android.os.Bundle)>:3
+COVA_CALL_INFORMATION:$r4 = virtualinvoke $r3.<android.support.v4.app.FragmentManager: android.support.v4.app.FragmentTransaction beginTransaction()>()
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void onCreate(android.os.Bundle)>:4
+COVA_CALL_INFORMATION:$r1 = new com.zola.bmi.BMIMain$PlaceholderFragment
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void onCreate(android.os.Bundle)>:5
+COVA_CALL_INFORMATION:specialinvoke $r1.<com.zola.bmi.BMIMain$PlaceholderFragment: void <init>()>()
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void onCreate(android.os.Bundle)>:6
+COVA_CALL_INFORMATION:specialinvoke $r0.<android.support.v4.app.Fragment: void <init>()>()
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain$PlaceholderFragment: void <init>()>:0
+COVA_CALL_INFORMATION:$r4 = virtualinvoke $r4.<android.support.v4.app.FragmentTransaction: android.support.v4.app.FragmentTransaction add(int,android.support.v4.app.Fragment)>(2131230764, $r1)
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void onCreate(android.os.Bundle)>:7
+COVA_CALL_INFORMATION:virtualinvoke $r4.<android.support.v4.app.FragmentTransaction: int commit()>()
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void onCreate(android.os.Bundle)>:8
+COVA_CALL_INFORMATION:$r2 = virtualinvoke $r3.<android.view.LayoutInflater: android.view.View inflate(int,android.view.ViewGroup,boolean)>(2131361821, $r1, 0)
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain$PlaceholderFragment: android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle)>:0
+COVA_CALL_INFORMATION:$i0 = virtualinvoke $r1.<android.view.View: int getId()>()
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:0
+COVA_CALL_INFORMATION:if $i0 != 2131230755 goto return
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:1
+COVA_CALL_INFORMATION:$r1 = virtualinvoke $r0.<com.zola.bmi.BMIMain: android.view.View findViewById(int)>(2131230857)
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:2
+COVA_CALL_INFORMATION:$r2 = (android.widget.EditText) $r1
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:3
+COVA_CALL_INFORMATION:$r1 = virtualinvoke $r0.<com.zola.bmi.BMIMain: android.view.View findViewById(int)>(2131230781)
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:4
+COVA_CALL_INFORMATION:$r3 = (android.widget.EditText) $r1
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:5
+COVA_CALL_INFORMATION:$r1 = virtualinvoke $r0.<com.zola.bmi.BMIMain: android.view.View findViewById(int)>(2131230809)
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:6
+COVA_CALL_INFORMATION:$r4 = (android.widget.TextView) $r1
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:7
+COVA_CALL_INFORMATION:$r1 = virtualinvoke $r0.<com.zola.bmi.BMIMain: android.view.View findViewById(int)>(2131230858)
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:8
+COVA_CALL_INFORMATION:$r5 = (android.widget.Spinner) $r1
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:9
+COVA_CALL_INFORMATION:$r1 = virtualinvoke $r0.<com.zola.bmi.BMIMain: android.view.View findViewById(int)>(2131230782)
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:10
+COVA_CALL_INFORMATION:$r6 = (android.widget.Spinner) $r1
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:11
+COVA_CALL_INFORMATION:$r7 = virtualinvoke $r5.<android.widget.Spinner: java.lang.Object getSelectedItem()>()
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:12
+COVA_CALL_INFORMATION:$r8 = virtualinvoke $r7.<java.lang.Object: java.lang.String toString()>()
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:13
+COVA_CALL_INFORMATION:$r7 = virtualinvoke $r6.<android.widget.Spinner: java.lang.Object getSelectedItem()>()
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:14
+COVA_CALL_INFORMATION:$r9 = virtualinvoke $r7.<java.lang.Object: java.lang.String toString()>()
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:15
+COVA_CALL_INFORMATION:$r10 = virtualinvoke $r2.<android.widget.EditText: android.text.Editable getText()>()
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:16
+COVA_CALL_INFORMATION:$r11 = virtualinvoke $r10.<java.lang.Object: java.lang.String toString()>()
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:17
+COVA_CALL_INFORMATION:$z0 = virtualinvoke $r11.<java.lang.String: boolean equals(java.lang.Object)>("")
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:18
+COVA_CALL_INFORMATION:$d0 = 0.0
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:19
+COVA_CALL_INFORMATION:if $z0 != 0 goto $d1 = 0.0
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:20
+COVA_CALL_INFORMATION:$d1 = 0.0
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:24
+COVA_CALL_INFORMATION:$r10 = virtualinvoke $r3.<android.widget.EditText: android.text.Editable getText()>()
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:25
+COVA_CALL_INFORMATION:$r11 = virtualinvoke $r10.<java.lang.Object: java.lang.String toString()>()
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:26
+COVA_CALL_INFORMATION:$z0 = virtualinvoke $r11.<java.lang.String: boolean equals(java.lang.Object)>("")
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:27
+COVA_CALL_INFORMATION:if $z0 != 0 goto $z0 = virtualinvoke $r8.<java.lang.String: boolean equals(java.lang.Object)>("Pounds")
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:28
+COVA_CALL_INFORMATION:$r10 = virtualinvoke $r3.<android.widget.EditText: android.text.Editable getText()>()
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:29
+COVA_CALL_INFORMATION:$r11 = virtualinvoke $r10.<java.lang.Object: java.lang.String toString()>()
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:30
+COVA_CALL_INFORMATION:$d0 = staticinvoke <java.lang.Double: double parseDouble(java.lang.String)>($r11)
+COVA_CONSTRAINT_INFORMATION:<com.zola.bmi.BMIMain: void calculateClickHandler(android.view.View)>:31

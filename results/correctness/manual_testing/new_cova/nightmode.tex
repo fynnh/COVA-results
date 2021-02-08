@@ -1,0 +1,26 @@
+\begin{table}[!ht]
+\begin{tabular}{lHccl}
+Target & Path & Has Path & Correct & Reason\\
+\Verb|<b.a.a.a.a: java.lang.String a()>:0| & No Constraint & $\times$ & $\sim$ & library method and obfuscated code\\
+\Verb|<b.a.a.a.a: java.lang.String a()>:0| & No Constraint & $\times$ & $\sim$ & library method and obfuscated code\\
+\Verb|<b.a.a.a.a: void b()>:4| & No Constraint & $\times$ & $\sim$ & library method and obfuscated code\\
+\Verb|<c.a.a.a.a: void onCheckedChanged()>:0| & \Verb|c.a.a.a.a{'menu:radioGroup': 2131165353}| & $\checkmark$ & $\checkmark$ & \\
+\Verb|<c.a.a.a.a: void onCheckedChanged()>:2| & \Verb|c.a.a.a.a{'menu:radioGroup': 2131165353}| & $\checkmark$ & $\checkmark$ & \\
+\Verb|<c.a.a.a.a: void onCheckedChanged()>:3| & \Verb|c.a.a.a.a{'menu:radioGroup': 2131165351}| & $\checkmark$ & $\checkmark$ & \\
+\Verb|<c.a.a.a.a: void onCheckedChanged()>:7| & \Verb|c.a.a.a.a{'menu:radioGroup': 2131165350}| & $\checkmark$ & $\checkmark$ & \\
+\Verb|<LandingPage: boolean onCreateOptionsMenu()>:0| & \Verb|LandingPage{}| & $\checkmark$ & $\checkmark$ & \\
+\Verb|<LandingPage: void onCreate()>:0| & \Verb|LandingPage{}| & $\checkmark$ & $\checkmark$ & \\
+\Verb|<LandingPage: void onCreate()>:1| & \Verb|LandingPage{}| & $\checkmark$ & $\checkmark$ & \\
+\Verb|<LandingPage: void onCreate()>:7| & \Verb|LandingPage{}| & $\checkmark$ & $\checkmark$ & \\
+\Verb|<LandingPage: void onCreate()>:8| & \Verb|LandingPage{}| & $\checkmark$ & $\checkmark$ & \\
+\Verb|<LandingPage: void onCreate()>:19| & \Verb|LandingPage{'C157': True}| & $\checkmark$ & ($\checkmark$) & \\
+\Verb|<LandingPage: void onCreate()>:20| & \Verb|LandingPage{}| & $\checkmark$ & $\checkmark$ & \\
+\Verb|<LandingPage: void onCreate()>:22| & \Verb|LandingPage{}| & $\checkmark$ & $\checkmark$ & \\
+\Verb|<QuickTileServices: void <init>()>:0| & No path to target activity & ($\times$) & $\times$ & TileService not modeled\\
+\Verb|<QuickTileServices: void onClick()>:8| & No path to target activity & ($\times$) & $\times$ & TileService not modeled\\
+\Verb|<QuickTileServices: void onClick()>:9| & No path to target activity & ($\times$) & $\times$ & TileService not modeled\\
+\Verb|<QuickTileServices: void onTileAdded()>:4| & No path to target activity & ($\times$) & $\times$ & TileService not modeled\\
+\Verb|<QuickTileServices: void onTileAdded()>:6| & No path to target activity  & ($\times$) & $\times$ & TileService not modeled\\
+\end{tabular}
+\caption{Extended COVA: Nightmode}
+\end{table}
