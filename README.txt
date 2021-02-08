@@ -1,3 +1,7 @@
+To run the analysis for all targets, RunAll has to be executed in cova_automatic.
+The arguments are the same as for the current version of COVA.
+Important: The version of Z3 changed, old Z3 versions do not work anymore.
+
 The results of the evaluation of the thesis can found in this repository.
 
 The apps of the pre-study reside in pre_study_apps.
