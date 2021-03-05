@@ -9,8 +9,11 @@ For example to run tests for all found targets:
 Main class: cova.automatic.RunAll
 Arguments: -apk {APKS_PATH}/app-debug.apk -config ${SOURCE_CODE_DIR}/COVA/cova/config -platform ${SOURCE_CODE_DIR}/COVA/cova/src/test/resources/androidPlatforms
 Environment: LD_LIBRARY_PATH=${SOURCE_CODE_DIR}/COVA/cova/localLibs/z3-4.8.9-x64-ubuntu-16.04/bin
+The results of automatic tests appear in %user_home%/cova_test_results. 
+On Linux this is ~/cova_test_results, on Windows it is C:\Users\%username%\cova_test_results.
 
-Important: The version of Z3 changed, old Z3 versions do not work anymore.
+Important: The version of Z3 has changed, old Z3 versions do not work anymore.
+
 
 The test app is in https://github.com/fynnh/COVA-activity-testapp.
 
