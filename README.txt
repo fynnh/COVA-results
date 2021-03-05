@@ -1,3 +1,8 @@
+Environment:
+Some software has to be installed.
+Appium (http://appium.io/) has to be installed and started.
+Additionally, an Android SDK with build-tools (https://developer.android.com/studio/releases/build-tools) has to be installed and the ANDROID_HOME environemnt variable has to be set.
+
 To run the analysis for all targets, RunAll has to be executed in cova_automatic.
 The arguments are the same as for the current version of COVA.
 For example to run tests for all found targets:
